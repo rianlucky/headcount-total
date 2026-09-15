@@ -1,0 +1,2186 @@
+{
+  "16": {
+    "area": "Corporativo",
+    "diretoria": "Corporativo"
+  },
+  "17": {
+    "area": "Gerencia Adm. Financeira e RI",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "18": {
+    "area": "Gerencia Adm. Financeira e RI",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "19": {
+    "area": "Vendas",
+    "diretoria": "Diretoria Comercial"
+  },
+  "2": {
+    "area": "Obras",
+    "diretoria": "Diretoria de Obras"
+  },
+  "21": {
+    "area": "Obras",
+    "diretoria": "Diretoria de Obras"
+  },
+  "4": {
+    "area": "Corporativo",
+    "diretoria": "Corporativo"
+  },
+  "400": {
+    "area": "Lotes Comerciais",
+    "diretoria": "Diretoria Comercial"
+  },
+  "40002": {
+    "area": "Presidencia",
+    "diretoria": "Presidencia"
+  },
+  "40013": {
+    "area": "Jurídico Corporativo",
+    "diretoria": "Diretoria Jurídica"
+  },
+  "40026": {
+    "area": "Corporativo",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "40055": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40116": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40118": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40119": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40130": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40134": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40137": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40138": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40145": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40146": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40147": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40148": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40149": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40153": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40157": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40164": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40165": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40169": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40171": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40172": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40175": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40176": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40179": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40181": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40183": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40184": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40186": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40188": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40194": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40197": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40198": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40199": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40200": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40207": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40220": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40225": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40230": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40241": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40251": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40252": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40253": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40254": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40255": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40256": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40257": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40258": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "40326": {
+    "area": "U.N - MG Regional Minas Gerais (MG)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "40483": {
+    "area": "U.N - MT Regional Mato Grosso (MT1)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "40500": {
+    "area": "Operações",
+    "diretoria": "Diretoria de Operações"
+  },
+  "40588": {
+    "area": "U.N - MG Regional Minas Gerais (MG)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "40593": {
+    "area": "U.N - MS Regional Mato Grosso do Sul (MS)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "40594": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "41129": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "41151": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "47000": {
+    "area": "Presidencia",
+    "diretoria": "Presidencia"
+  },
+  "47010": {
+    "area": "Conselho Administrativo",
+    "diretoria": "Conselho Administrativo"
+  },
+  "47020": {
+    "area": "Auditoria",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47030": {
+    "area": "Gestão de Riscos e Controles Internos",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47050": {
+    "area": "Gerência de Desenvolvimento Organizacional",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47051": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47054": {
+    "area": "Folha e Benefícios e Remuneração",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47055": {
+    "area": "Gente e Cultura",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47056": {
+    "area": "Remuneração",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47057": {
+    "area": "ESG",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47059": {
+    "area": "Gerência de Desenvolvimento Organizacional",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47100": {
+    "area": "Conselho Administrativo",
+    "diretoria": "Conselho Administrativo"
+  },
+  "47101": {
+    "area": "Controladoria e Planejamento de Obras",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47102": {
+    "area": "Inovação e Processos",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47103": {
+    "area": "PMO",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47110": {
+    "area": "Desenvolvimento de Produtos",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47111": {
+    "area": "Urbanismo",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47112": {
+    "area": "Edificações e Paisagismo",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47113": {
+    "area": "Inteligência de Dados",
+    "diretoria": "Diretoria Especialista de Engenharia"
+  },
+  "47120": {
+    "area": "U.N - SP Regional São Paulo (SP1)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47121": {
+    "area": "U.N - SP Regional São Paulo (SP1)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47122": {
+    "area": "U.N - SP Regional São Paulo (SP2)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47123": {
+    "area": "U.N - SP Regional São Paulo (SP3)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47124": {
+    "area": "U.N - SP Regional São Paulo (SP5)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47125": {
+    "area": "U.N - SP Regional São Paulo (SP4)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47130": {
+    "area": "U.N - SP Regional São Paulo (SP6)",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47140": {
+    "area": "U.N - PR Regional Sul (PR)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "47150": {
+    "area": "Jurídico Corporativo",
+    "diretoria": "Diretoria Jurídica"
+  },
+  "47159": {
+    "area": "Gerência Jurídica",
+    "diretoria": "Diretoria Jurídica"
+  },
+  "47160": {
+    "area": "Jurídico Imobiliário",
+    "diretoria": "Diretoria Jurídica"
+  },
+  "47190": {
+    "area": "Novos Negócios",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47191": {
+    "area": "Novos Negócios",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47200": {
+    "area": "Gerencia Adm. Financeira e RI",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47201": {
+    "area": "Financeiro",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47202": {
+    "area": "Relacionamento com Investidores",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47210": {
+    "area": "Cobrança, Recebíveis e Planejamento Financeiro",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47230": {
+    "area": "Cobrança, Recebíveis e Planejamento Financeiro",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47231": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47232": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47240": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47243": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47244": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47246": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47247": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47248": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47249": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47250": {
+    "area": "Contábil e Fiscal",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47255": {
+    "area": "Compliance",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "47260": {
+    "area": "Financeiro",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47261": {
+    "area": "Financeiro",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47270": {
+    "area": "Tecnologia da Informação",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47271": {
+    "area": "CAPEX",
+    "diretoria": "CAPEX"
+  },
+  "47272": {
+    "area": "Tecnologia da Informação",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47273": {
+    "area": "Tecnologia da Informação",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47274": {
+    "area": "Tecnologia da Informação",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47276": {
+    "area": "CAPEX",
+    "diretoria": "CAPEX"
+  },
+  "47280": {
+    "area": "Controladoria e Planejamento de Obras",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47281": {
+    "area": "Controladoria e Planejamento de Obras",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47290": {
+    "area": "Obras",
+    "diretoria": "Diretoria de Obras"
+  },
+  "47300": {
+    "area": "Gerência Comercial",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47310": {
+    "area": "Gerência Comercial",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47320": {
+    "area": "Marketing, Comunicação Interna e Relacionamento com Cliente",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47323": {
+    "area": "Marketing, Comunicação Interna e Relacionamento com Cliente",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47330": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47331": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47333": {
+    "area": "Marketing, Comunicação Interna e Relacionamento com Cliente",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47340": {
+    "area": "Marketing, Comunicação Interna e Relacionamento com Cliente",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47350": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47360": {
+    "area": "Performance Comercial",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47370": {
+    "area": "Comercial SBPE",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47373": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47374": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47377": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47378": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47380": {
+    "area": "Repasses",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47390": {
+    "area": "Financeiro Comercial",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47400": {
+    "area": "Gerência de Engenharia Técnica",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47420": {
+    "area": "Controladoria e Planejamento de Obras",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47430": {
+    "area": "Projetos",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47440": {
+    "area": "Legalizações",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47450": {
+    "area": "Plano Empresário",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "47460": {
+    "area": "Sustentabilidade",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47500": {
+    "area": "Gerência Especialista de Engenharia",
+    "diretoria": "Diretoria Especialista de Engenharia"
+  },
+  "47501": {
+    "area": "STAFF",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "47502": {
+    "area": "STAFF",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47504": {
+    "area": "Suprimentos",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47506": {
+    "area": "Controladoria e Planejamento de Obras",
+    "diretoria": "Diretoria de Engenharia Técnica"
+  },
+  "47511": {
+    "area": "Administrativo Financeiro de Obras 1",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "47512": {
+    "area": "Administrativo Financeiro de Obras 2",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47514": {
+    "area": "Administrativo Financeiro de Obras 2",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47531": {
+    "area": "Desenvolvimento Técnico de Obras",
+    "diretoria": "Diretoria Especialista de Engenharia"
+  },
+  "47532": {
+    "area": "Assistência Técnica",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47533": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47535": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47537": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47538": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47540": {
+    "area": "Gerência de Obras 1",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "47550": {
+    "area": "Gerência de Obras 2",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "47560": {
+    "area": "Segurança do Trabalho",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "47561": {
+    "area": "Segurança do Trabalho",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "47581": {
+    "area": "Ambiental",
+    "diretoria": "Diretoria Especialista de Engenharia"
+  },
+  "47700": {
+    "area": "Presidencia",
+    "diretoria": "Presidencia"
+  },
+  "47701": {
+    "area": "Gerência de Negócios 1",
+    "diretoria": "Diretoria de Negócios 1"
+  },
+  "47702": {
+    "area": "Gerência de Negócios 2",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "47710": {
+    "area": "Gerência de Negócios 2",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "47720": {
+    "area": "U.N - PR Regional Sul (PR)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "47750": {
+    "area": "U.N - MT Regional Mato Grosso (MT2)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "47751": {
+    "area": "U.N - MT Regional Mato Grosso (MT1)",
+    "diretoria": "Diretoria de Negócios 2"
+  },
+  "47810": {
+    "area": "Marketing, Comunicação Interna e Relacionamento com Cliente",
+    "diretoria": "Diretoria Comercial"
+  },
+  "47990": {
+    "area": "Facilities",
+    "diretoria": "Diretoria de Desenvolvimento Organizacional"
+  },
+  "48152": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48185": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48191": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48203": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48204": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48209": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48211": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48216": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48218": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48222": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48223": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48228": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48229": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48231": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48239": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48248": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48249": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48270": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48271": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48272": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48277": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48286": {
+    "area": "Vendas (Goiás)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48290": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48291": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48292": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48294": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48299": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48300": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48301": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48303": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48304": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48306": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48307": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48308": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48310": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48313": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48314": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48319": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48323": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48326": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48328": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48330": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48331": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48332": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48334": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48336": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48338": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48340": {
+    "area": "Vendas (Mato Grosso)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48342": {
+    "area": "Vendas (Mato Grosso)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48345": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48347": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48348": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48349": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48350": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48357": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48358": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48363": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48366": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48367": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48370": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48371": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48375": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48378": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48379": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48380": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48383": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48384": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48385": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48386": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48388": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48389": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48394": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48397": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48399": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48405": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48417": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48420": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48421": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48422": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48423": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48429": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48442": {
+    "area": "Vendas (Minas Gerais)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48443": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48444": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48445": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48446": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48447": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48449": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48452": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48453": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48455": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48463": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48465": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48466": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48468": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48469": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48470": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48483": {
+    "area": "Vendas (Mato Grosso)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48489": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48492": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48500": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48525": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48552": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48591": {
+    "area": "Vendas (São Paulo)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48593": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48595": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48596": {
+    "area": "Vendas (Paraná)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48609": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "48615": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria Comercial"
+  },
+  "49152": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49180": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49182": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49185": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49191": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49211": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49212": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49216": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49218": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49221": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49222": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49223": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49224": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49226": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49228": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49229": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49231": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49233": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49234": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49235": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49236": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49237": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49238": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49239": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49242": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49244": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49248": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49249": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49261": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49265": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49267": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49268": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49270": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49271": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49277": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49286": {
+    "area": "Obras MG",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49290": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49291": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49292": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49294": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49296": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49299": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49300": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49301": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49303": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49304": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49307": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49308": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49310": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49313": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49314": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49319": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49326": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49327": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49328": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49330": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49331": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49332": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49334": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49336": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49338": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49341": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49342": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49343": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49347": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49348": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49349": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49351": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49352": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49353": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49354": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49355": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49356": {
+    "area": "Pacavitta",
+    "diretoria": "Diretoria Adm. Financeira e RI"
+  },
+  "49357": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49361": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49362": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49363": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49364": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49366": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49367": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49370": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49371": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49375": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49378": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49379": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49380": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49383": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49384": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49385": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49388": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49389": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49394": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49395": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49397": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49405": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49417": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49420": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49421": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49422": {
+    "area": "Obras MG",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49423": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49429": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49432": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49436": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49437": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49442": {
+    "area": "Obras MG",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49443": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49445": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49446": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49447": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49448": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49449": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49450": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49452": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49453": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49455": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49463": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49464": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49465": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49466": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49467": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49468": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49469": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49470": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49492": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49500": {
+    "area": "Vendas (Centro-Oeste)",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49552": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49563": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49568": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49586": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49591": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "49596": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49609": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "49615": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "5": {
+    "area": "Teste",
+    "diretoria": "Teste"
+  },
+  "52152": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52180": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52182": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52185": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52191": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52192": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52209": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52211": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52212": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52216": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52218": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52221": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52222": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52223": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52224": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52226": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52228": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52229": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52231": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52232": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52234": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52235": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52236": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52237": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52238": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52239": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52242": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52244": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52248": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52249": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52261": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52265": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52267": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52268": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52270": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52271": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52277": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52286": {
+    "area": "Obras GO",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52290": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52291": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52292": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52294": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52296": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52299": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52300": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52301": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52303": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52304": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52307": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52308": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52310": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52313": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52314": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52319": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52326": {
+    "area": "Obras MG",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52327": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52328": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52330": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52331": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52332": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52334": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52336": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52338": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52342": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52347": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52348": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52349": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52351": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52353": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52355": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52357": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52361": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52362": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52363": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52364": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52365": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52366": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52367": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52370": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52371": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52375": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52378": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52379": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52380": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52383": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52384": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52385": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52388": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52389": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52394": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52395": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52397": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52405": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52416": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52417": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52420": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52421": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52422": {
+    "area": "Obras MG",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52429": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52432": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52436": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52442": {
+    "area": "Obras MG",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52443": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52445": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52446": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52447": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52448": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52449": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52450": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52452": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52453": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52455": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52463": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52464": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52465": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52466": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52467": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52468": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52469": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52470": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52492": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52552": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52563": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52568": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52586": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "52596": {
+    "area": "Obras PR",
+    "diretoria": "Diretoria de Obras 2"
+  },
+  "52609": {
+    "area": "Obras MT",
+    "diretoria": "Diretoria de Obras 1"
+  },
+  "56182": {
+    "area": "Obras SP",
+    "diretoria": "Diretoria de Obras 1"
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "ESCRITORIO_BAURU": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871
+  },
+  "ESCRITORIO_BRASILIA": {
+    "cidade": "Brasília",
+    "lat": -15.7795,
+    "lon": -47.9297
+  },
+  "ESCRITORIO_CAMPO_GRANDE": {
+    "cidade": "Campo Grande",
+    "lat": -20.4486,
+    "lon": -54.6295
+  },
+  "ESCRITORIO_CUIABA": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974
+  },
+  "ESCRITORIO_LONDRINA": {
+    "cidade": "Londrina",
+    "lat": -23.304,
+    "lon": -51.1691
+  },
+  "ESCRITORIO_RIBEIRAO_PRETO": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099
+  },
+  "ESCRITORIO_SAO_JOSE_DO_RIO_PRETO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "ESCRITORIO_SAO_PAULO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395
+  },
+  "ESCRITORIO_UBERLANDIA": {
+    "cidade": "Uberlândia",
+    "lat": -18.9141,
+    "lon": -48.2749
+  },
+  "LOC_OBRA_LTDA_CIANORTE_JUVENAL_F1_52463": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054
+  },
+  "LOC_OBRA_LTDA_TAUBATE_PORTO_FELIZ_C1_52351": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593
+  },
+  "LOC_OBRA_SA_CIANORTE_JUVENAL_F1_49463": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054
+  },
+  "LOC_OBRA_SA_TAUBATE_PORTO_FELIZ_C1_49351": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593
+  },
+  "LOC_PACAEMBU_SA_47112_DESENVOLVIMENTO_DE_PRODUTOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395
+  },
+  "LOC_PACAEMBU_SA_47230_GESTAO_CREDITO_COBRANCA": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395
+  },
+  "LOC_PACAEMBU_SA_47700_DIRETORIA_DE_NEGOCIOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395
+  },
+  "LOC_PACAEMBU_SA_I": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871
+  },
+  "LOC_PACAEMBU_SA_STAFF_ROTATIVO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871
+  },
+  "LOC_PACAEMBU_SA_SUPORTE_NOVOS_NEGOCIOS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871
+  },
+  "LOC_VIDA_NOVA_BOTUCATU_VERONICA_CESSAO": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437
+  },
+  "LOJA_ARACATUBA_JARDIM_VIRGINIA_48591": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401
+  },
+  "LOJA_ARACATUBA_VILA_AERONAUTICA_1_FASE_3_48330": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401
+  },
+  "LOJA_ARAPONGAS_HAROLDO_48455": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259
+  },
+  "LOJA_ARARAQUARA_MONTORO_I_48271": {
+    "cidade": "Araraquara",
+    "lat": -21.7845,
+    "lon": -48.178
+  },
+  "LOJA_ASSIS_BELA_VISTA_3_F1_48445": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183
+  },
+  "LOJA_ASSIS_CHATEAUBRIAND_VIZINHO_COMVIVA_48447": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213
+  },
+  "LOJA_AVARE_SAO_ROGERIO_3_48229": {
+    "cidade": "Avaré",
+    "lat": -23.1067,
+    "lon": -48.9251
+  },
+  "LOJA_AVARE_SAO_ROGERIO_4_48249": {
+    "cidade": "Avaré",
+    "lat": -23.1067,
+    "lon": -48.9251
+  },
+  "LOJA_BALSAMO_SAO_PEDRO_48469": {
+    "cidade": "Bálsamo",
+    "lat": -20.7348,
+    "lon": -49.5865
+  },
+  "LOJA_BAURU_AZEVEDO_F1_48223": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871
+  },
+  "LOJA_BOTUCATU_VERONICA_2_48301": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437
+  },
+  "LOJA_BRASILIA_RESIDENCIAL_PARQUE_48500": {
+    "cidade": "Brasília",
+    "lat": -15.7795,
+    "lon": -47.9297
+  },
+  "LOJA_CAMPO_MOURAO_JOAO_BATISTA_F2_48596": {
+    "cidade": "Campo Mourão",
+    "lat": -24.0463,
+    "lon": -52.378
+  },
+  "LOJA_CATANDUVA_JARDIM_TOSCANA_48348": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977
+  },
+  "LOJA_CIANORTE_JUVENAL_1_F2_48470": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054
+  },
+  "LOJA_CIANORTE_JUVENAL_48463": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054
+  },
+  "LOJA_CUIABA_IMIGRANTES_F1_ 48483": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974
+  },
+  "LOJA_CUIABA_LATORRACA_3_48363": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974
+  },
+  "LOJA_DIAMANTINO_JBS_48615": {
+    "cidade": "Diamantino",
+    "lat": -14.4037,
+    "lon": -56.4366
+  },
+  "LOJA_ITAPETININGA_COPACABANA_48443": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483
+  },
+  "LOJA_ITAPETININGA_LERA_48446": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483
+  },
+  "LOJA_LEME_FLORA_ I _48385": {
+    "cidade": "Leme",
+    "lat": -22.1809,
+    "lon": -47.3841
+  },
+  "LOJA_LINS_LINS_4_FASE_2_48417": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526
+  },
+  "LOJA_LINS_SAMUEL_ARZANI_48389": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526
+  },
+  "LOJA_LONDRINA_TERRA _NOVA_3_48323": {
+    "cidade": "Londrina",
+    "lat": -23.304,
+    "lon": -51.1691
+  },
+  "LOJA_LUCAS_RIO_VERDE_PREFEITURA_F1_48452": {
+    "cidade": "Lucas do Rio Verde",
+    "lat": -13.0588,
+    "lon": -55.9042
+  },
+  "LOJA_LUCAS_RIO_VERDE_PREFEITURA_F2_48453": {
+    "cidade": "Lucas do Rio Verde",
+    "lat": -13.0588,
+    "lon": -55.9042
+  },
+  "LOJA_MARILIA_FAZENDA_ARARAQUARA_F2_48421": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501
+  },
+  "LOJA_NOVA_MARILANDIA_48609": {
+    "cidade": "Nova Marilândia",
+    "lat": -14.3568,
+    "lon": -56.9696
+  },
+  "LOJA_PALOTINA_SAIDA_FA_F1_48384": {
+    "cidade": "Palotina",
+    "lat": -24.2868,
+    "lon": -53.8404
+  },
+  "LOJA_PARANAVAI_AV_DO_CAFE_48489": {
+    "cidade": "Paranavaí",
+    "lat": -23.0816,
+    "lon": -52.4617
+  },
+  "LOJA_PIRATININGA_RESIDENCIAL_VERISSIMO_FASE_2_48466": {
+    "cidade": "Piratininga",
+    "lat": -22.4142,
+    "lon": -49.1339
+  },
+  "LOJA_PRESIDENTE_PRUDENTE _ALTO_ALEGRE_48383": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925
+  },
+  "LOJA_PRESIDENTE_PRUDENTE _SANTA_JOANA_48444": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925
+  },
+  "LOJA_PRIMAVERA_DO_LESTE_EDUARDO_ZALESKI_2_FASE_1_48397": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811
+  },
+  "LOJA_PRIMAVERA_DO_LESTE_EDUARDO_ZALESKI_48394": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811
+  },
+  "LOJA_PRIMAVERA_DO_LESTE_EDUARDO_ZALESKI_48420": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811
+  },
+  "LOJA_RIBEIRAO_PRETO_SCODRO_1_48272": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099
+  },
+  "LOJA_RIBEIRAO_PRETO_WILDA _FACCI_C1_48386": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099
+  },
+  "LOJA_RIO_PRETO_OLINDA_SALA_1_FASE_2_48429": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "LOJA_RIO_PRETO_OLINDA_SALA_F1_48405": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "LOJA_RIO_PRETO_WAYFRO_F1_48185": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "LOJA_SAO_CARLOS_SAMAMBAIA_F1_48277": {
+    "cidade": "São Carlos",
+    "lat": -22.0174,
+    "lon": -47.886
+  },
+  "LOJA_SA_CAMPO_GRANDE_JD_AGUA_BRANCA_F1_48593": {
+    "cidade": "Campo Grande",
+    "lat": -20.4486,
+    "lon": -54.6295
+  },
+  "LOJA_SA_RONDONOPOLIS_SANTO_EXPEDITO_F1_48306": {
+    "cidade": "Rondonópolis",
+    "lat": -16.4673,
+    "lon": -54.6372
+  },
+  "LOJA_SINOP_RHOVID_F1_48423": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091
+  },
+  "LOJA_SINOP_RHOVID_FASE_2_48449": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091
+  },
+  "LOJA_SORRISO_SANTO_ANGELO_VIGOLO_F1_48492": {
+    "cidade": "Sorriso",
+    "lat": -12.5425,
+    "lon": -55.7211
+  },
+  "LOJA_TATUI_LAGOA_VERMELHA_48367": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461
+  },
+  "LOJA_TATUI_LAGOA_VERMELHA_F2_48378": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461
+  },
+  "LOJA_TAUBATE_TAUBATE_PORTO_FELIZ_48350": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593
+  },
+  "LOJA_VOTUPORANGA_GIBIM_48465": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781
+  },
+  "OBRA_LTDA_ ARACATUBA_VILA_AERONAUTICA_I_F3_52330": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401
+  },
+  "OBRA_LTDA_ ARAPONGAS_CAMPAGNOLE_52563": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259
+  },
+  "OBRA_LTDA_ ASSIS_CHATEAUBRIAND_VIZINHO_COMVIVA _52447": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213
+  },
+  "OBRA_LTDA_ AVARE_SAO_ROGERIO_III_52229": {
+    "cidade": "Avaré",
+    "lat": -23.1067,
+    "lon": -48.9251
+  },
+  "OBRA_LTDA_ MARILIA_FAZENDA_ARARAQUARA _F1_52222": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501
+  },
+  "OBRA_LTDA_ MARILIA_FAZENDA_ARARAQUARA _F2_52421": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501
+  },
+  "OBRA_LTDA_ SINOP_RESIDENCIAL_TIVOLI_52568": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091
+  },
+  "OBRA_LTDA_ SORRISO_SANTO_ANGELO": {
+    "cidade": "Sorriso",
+    "lat": -12.5425,
+    "lon": -55.7211
+  },
+  "OBRA_LTDA_ TATUI_LAGOA_VERMELHA_1_F1_52367": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461
+  },
+  "OBRA_LTDA_ARAPONGAS_OURO_VERDE_52455": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259
+  },
+  "OBRA_LTDA_ARARAQUARA_MONTORO _I_52271": {
+    "cidade": "Araraquara",
+    "lat": -21.7845,
+    "lon": -48.178
+  },
+  "OBRA_LTDA_ASSIS_BELA_VISTA_III": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183
+  },
+  "OBRA_LTDA_AVARE_SAO_ROGERIO_IV_52249": {
+    "cidade": "Avaré",
+    "lat": -23.1067,
+    "lon": -48.9251
+  },
+  "OBRA_LTDA_BADY_BASSITT_TERRAS_DE_BADY_MOD_1_52586": {
+    "cidade": "Bady Bassitt",
+    "lat": -20.9197,
+    "lon": -49.4385
+  },
+  "OBRA_LTDA_BOTUCATU_VERONICA_F2_52301": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437
+  },
+  "OBRA_LTDA_CAMPO_MOURAO_JOAO_BATISTA_F2_52596": {
+    "cidade": "Campo Mourão",
+    "lat": -24.0463,
+    "lon": -52.378
+  },
+  "OBRA_LTDA_CATANDUVA_JARDIM_TOSCANA_52348": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977
+  },
+  "OBRA_LTDA_CIANORTE_RESIDENCIAL_PLANALTO_52470": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054
+  },
+  "OBRA_LTDA_CUIABA_LATORRACA_3_52363": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974
+  },
+  "OBRA_LTDA_ITAPETININGA_LERA_52446": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483
+  },
+  "OBRA_LTDA_LEME_FLORA _I_52385": {
+    "cidade": "Leme",
+    "lat": -22.1809,
+    "lon": -47.3841
+  },
+  "OBRA_LTDA_LINS_IV_FASE_2_52417": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526
+  },
+  "OBRA_LTDA_LUCAS_RIO_VERDE_RES_JARDIM_ESPERANÇA": {
+    "cidade": "Lucas do Rio Verde",
+    "lat": -13.0588,
+    "lon": -55.9042
+  },
+  "OBRA_LTDA_NOVA_MARILANDIA_VIDA_NOVA_MARILANDIA_52609": {
+    "cidade": "Nova Marilândia",
+    "lat": -14.3568,
+    "lon": -56.9696
+  },
+  "OBRA_LTDA_PACAEMBU_SAO_CARLOS_52277": {
+    "cidade": "São Carlos",
+    "lat": -22.0174,
+    "lon": -47.886
+  },
+  "OBRA_LTDA_PIRATININGA_RESIDENCIAL_VALE_VERDE_F2_52466": {
+    "cidade": "Piratininga",
+    "lat": -22.4142,
+    "lon": -49.1339
+  },
+  "OBRA_LTDA_PRESIDENTE_PRUDENTE_ALTO_ALEGRE_52383": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925
+  },
+  "OBRA_LTDA_PRIMAVERA_DO_LESTE_JD_IPES_III_E_IV": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811
+  },
+  "OBRA_LTDA_RIBEIRAO_PRETO_WILDA_FACCI_C1/C2/C3": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099
+  },
+  "OBRA_LTDA_RIO_PRETO_CLARISSE_NOVELLI_PASSOS_F1_52185": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_LTDA_RIO_PRETO_OLINDA_SALA_F1_52405": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_LTDA_RIO_PRETO_OLINDA_SALA_F2_52429": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_LTDA_SINOP_RODHIVI _MORADA_BOSQUE_52449": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091
+  },
+  "OBRA_LTDA_UBERLANDIA_RESIDENCIAL_PACAEMBU_52326": {
+    "cidade": "Uberlândia",
+    "lat": -18.9141,
+    "lon": -48.2749
+  },
+  "OBRA_LTDA_VOTUPORANGA_GIBIM_52465": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781
+  },
+  "OBRA_PACAEMBU_SA_LINS_IV_FASE_2_49417": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526
+  },
+  "OBRA_SA_ ARACATUBA_VILA_AERONAUTICA_I_F3_49330": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401
+  },
+  "OBRA_SA_ ARAPONGAS_CAMPAGNOLE_49563": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259
+  },
+  "OBRA_SA_ AVARE_SAO_ROGERIO_III_49229": {
+    "cidade": "Avaré",
+    "lat": -23.1067,
+    "lon": -48.9251
+  },
+  "OBRA_SA_ MARILIA_FAZENDA_ARARAQUARA _F2_49421": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501
+  },
+  "OBRA_SA_ SINOP_RESIDENCIAL_TIVOLI_49568": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091
+  },
+  "OBRA_SA_ SORRISO_SANTO_ANGELO": {
+    "cidade": "Sorriso",
+    "lat": -12.5425,
+    "lon": -55.7211
+  },
+  "OBRA_SA_ARACATUBA_JARDIM_VIRGINIA_49591": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401
+  },
+  "OBRA_SA_ARAPONGAS_OURO_VERDE_49455": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259
+  },
+  "OBRA_SA_ASSIS_BELA_VISTA_III": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183
+  },
+  "OBRA_SA_AVARE_SAO_ROGERIO_IV_49249": {
+    "cidade": "Avaré",
+    "lat": -23.1067,
+    "lon": -48.9251
+  },
+  "OBRA_SA_BADY_BASSITT_TERRAS_DE_BADY_MOD_1_49586": {
+    "cidade": "Bady Bassitt",
+    "lat": -20.9197,
+    "lon": -49.4385
+  },
+  "OBRA_SA_BOTUCATU_VERONICA_F2_49301": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437
+  },
+  "OBRA_SA_CAMPO_MOURAO_JOAO_BATISTA_F2_49596": {
+    "cidade": "Campo Mourão",
+    "lat": -24.0463,
+    "lon": -52.378
+  },
+  "OBRA_SA_CATANDUVA_JARDIM_TOSCANA_49348": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977
+  },
+  "OBRA_SA_CIANORTE_RESIDENCIAL_PLANALTO_49470": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054
+  },
+  "OBRA_SA_CONDOMINIO_1_DOS_LIRIOS_49437": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_SA_CUIABA_LATORRACA_3_49363": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974
+  },
+  "OBRA_SA_DIAMANTINO_JBS_49615": {
+    "cidade": "Diamantino",
+    "lat": -14.4037,
+    "lon": -56.4366
+  },
+  "OBRA_SA_ITAPETININGA_LERA_49446": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483
+  },
+  "OBRA_SA_LEME_FLORA _I_49385": {
+    "cidade": "Leme",
+    "lat": -22.1809,
+    "lon": -47.3841
+  },
+  "OBRA_SA_LUCAS_RIO_VERDE_RES_JARDIM_ESPERANCA": {
+    "cidade": "Lucas do Rio Verde",
+    "lat": -13.0588,
+    "lon": -55.9042
+  },
+  "OBRA_SA_NOVA_MARILANDIA_VIDA_NOVA_MARILANDIA_49609": {
+    "cidade": "Nova Marilândia",
+    "lat": -14.3568,
+    "lon": -56.9696
+  },
+  "OBRA_SA_PACAEMBU_SAO_CARLOS_49277": {
+    "cidade": "São Carlos",
+    "lat": -22.0174,
+    "lon": -47.886
+  },
+  "OBRA_SA_PIRATININGA_RESIDENCIAL_VALE_VERDE_F2_49466": {
+    "cidade": "Piratininga",
+    "lat": -22.4142,
+    "lon": -49.1339
+  },
+  "OBRA_SA_PRESIDENTE_PRUDENTE_ALTO_ALEGRE_49383": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925
+  },
+  "OBRA_SA_PRIMAVERA_DO_LESTE_AV_EDUARDO_ZALESKI": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811
+  },
+  "OBRA_SA_PRIMAVERA_DO_LESTE_JD_IPES_III_E_IV": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811
+  },
+  "OBRA_SA_RIBEIRAO_PRETO_WILDA_FACCI_C1/C2/C3": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099
+  },
+  "OBRA_SA_RIO_PRETO_CLARISSE_NOVELLI_PASSOS_F1_49185": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_SA_RIO_PRETO_OLINDA_SALA_F1_49405": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_SA_RIO_PRETO_OLINDA_SALA_F2_49429": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "OBRA_SA_SINOP_RODHIVI _MORADA_BOSQUE_49449": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091
+  },
+  "OBRA_SA_TATUI_LAGOA_VERMELHA_1_F1_49367": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461
+  },
+  "OBRA_SA_UBERLANDIA_RESIDENCIAL_PACAEMBU_49326": {
+    "cidade": "Uberlândia",
+    "lat": -18.9141,
+    "lon": -48.2749
+  },
+  "OBRA_SA_VOTUPORANGA_GIBIM_49465": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781
+  }
+}

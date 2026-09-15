@@ -1,0 +1,47 @@
+[theme]
+base = "light"
+# Navy institucional da Pacaembu — mesma cor usada no card de KPI Vega-Lite dos
+# dashboards Databricks/Genie (spec fornecida pelo usuário em 2026-09-11).
+# Unificado com o BRAND_COLOR do app.py pra não ter dois azuis escuros diferentes
+# na mesma tela. Fonte não é Inter — nenhum dashboard real usa isso.
+primaryColor = "#064D66"
+backgroundColor = "#F5F7FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#232323"
+font = "sans-serif"
+baseRadius = "medium"
+borderColor = "#E3E6EA"
+linkColor = "#064D66"
+linkUnderline = false
+showWidgetBorder = true
+showSidebarBorder = true
+
+# Mesma paleta semântica do RealizaDO (COR_ORCADO/COR_REALIZADO/COR_BOM/COR_RUIM).
+greenColor = "#0ca30c"
+redColor = "#d03b3b"
+orangeColor = "#eb6834"
+blueColor = "#2a78d6"
+violetColor = "#8a4fd6"
+grayColor = "#64748b"
+
+chartCategoricalColors = ["#064D66", "#2a78d6", "#eb6834", "#0ca30c", "#d03b3b", "#64748b", "#8a4fd6"]
+dataframeBorderColor = "#E3E6EA"
+dataframeHeaderBackgroundColor = "#EDF1F3"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F7FA"
+textColor = "#232323"
+borderColor = "#E3E6EA"
+primaryColor = "#2a78d6"
+
+[client]
+# Esconde o botão "Deploy" e as opções de desenvolvedor — é um painel público,
+# não faz sentido oferecer isso pra quem só está consultando.
+toolbarMode = "viewer"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
