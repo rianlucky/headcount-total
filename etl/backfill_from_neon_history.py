@@ -3,9 +3,9 @@ estado/cargo — direto do mirror interno no Neon, sem precisar consultar o
 Databricks de novo.
 
 Usa duas tabelas já espelhadas por `mirror_fatos_to_neon.py`:
-- `interno.fato_funcionario`: data_admissao/data_desligamento por pessoa — quem
+- `core.fato_funcionario`: data_admissao/data_desligamento por pessoa — quem
   estava ativo em cada mês histórico.
-- `interno.fato_funcionario_evol_cargos`: dimensão tipo-2 (intervalo de validade
+- `core.fato_funcionario_evol_cargos`: dimensão tipo-2 (intervalo de validade
   `data_de`/`data_ate`) de centro de custo/cargo por pessoa, cobrindo desde 2006
   — dá pra saber o CC/cargo de qualquer pessoa em qualquer data histórica, não só
   nos poucos meses com snapshot diário do bronze (ver `backfill_headcount_history.py`,
@@ -55,7 +55,7 @@ def _connect():
 def load_people(connection) -> pd.DataFrame:
     query = """
         SELECT id_funcionario, data_admissao, data_desligamento, estado, descricao_local, categoria_atribuicao
-        FROM interno.fato_funcionario
+        FROM core.fato_funcionario
     """
     people = pd.read_sql(query, connection)
     people["id_funcionario"] = people["id_funcionario"].astype(str)
@@ -67,7 +67,7 @@ def load_people(connection) -> pd.DataFrame:
 def load_cargo_history(connection) -> pd.DataFrame:
     query = """
         SELECT id_funcionario, data_de, data_ate, descricao_cargo, centro_de_custo_atual
-        FROM interno.fato_funcionario_evol_cargos
+        FROM core.fato_funcionario_evol_cargos
     """
     history = pd.read_sql(query, connection)
     history["id_funcionario"] = history["id_funcionario"].astype(str)
@@ -145,13 +145,13 @@ def write_to_neon(connection, data: pd.DataFrame, month_ends: list[str]) -> None
     )
     with connection.cursor() as cursor:
         cursor.execute(
-            "DELETE FROM headcount_publico WHERE snapshot_date = ANY(%s::date[])",
+            "DELETE FROM org.headcount_publico WHERE snapshot_date = ANY(%s::date[])",
             (month_ends,),
         )
         execute_values(
             cursor,
             """
-            INSERT INTO headcount_publico
+            INSERT INTO org.headcount_publico
                 (snapshot_date, diretoria, area, job_level, job_function, state, city,
                  city_lat, city_lon, assignment_category, headcount)
             VALUES %s

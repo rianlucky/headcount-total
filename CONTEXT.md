@@ -21,6 +21,19 @@ Confirmado: os agrupadores públicos de negócio são **Diretoria**, **Área**, 
 
 Modelo de trabalho foi removido do painel: sem métrica útil para ele por enquanto.
 
+## Neon: onde fica cada coisa (desde a migração 002, 2026-09-24)
+
+Este projeto faz parte da **Central de Gente & Dados** (projeto Neon `small-dream-41242535`), organizada por schema — ver `00 - Central de Gente & Dados/PLANO_INTEGRACAO_NEON.md`.
+
+| O quê | Onde | Quem escreve | Quem lê |
+|---|---|---|---|
+| Painel (agregado, sem PII) | `org.headcount_publico`, `org.headcount_extra_metrics` | `etl/extract_databricks_to_neon.py`, `etl/backfill_from_neon_history.py` (usuário `etl_loader`) | `app.py` (usuário `app_headcount`) |
+| Mirror dos fatos de RH (com PII) | `core.fato_funcionario`, `_ativo`, `_inativo`, `_evol_cargos`, `core.fato_movimentacao` | `etl/mirror_fatos_to_neon.py` (`etl_loader`) | backfill; outros projetos via views |
+| Versão sem PII dos funcionários | `core_view.funcionario*` | (view) | qualquer app |
+| Login | `public.app_users` (vai para `acesso` na Fase 1.6) | `scripts/grant_access.py` | `auth.py` |
+
+`interno.fato_*` e `public.headcount_*` agora são **views de compatibilidade** — não escrever nelas (TRUNCATE falha). Mudança de estrutura: só via `_neon/migrations/`, testada antes no branch `dev`.
+
 ## Contrato técnico (Neon)
 
 O painel lê de uma tabela `headcount_publico` no Neon (Postgres) com `snapshot_date`, `diretoria`, `area`, `job_level`, `state`, `headcount`. Quem alimenta essa tabela é o job semanal em `etl/`, nunca o Streamlit diretamente — ver "Decisão: pipeline via Neon" abaixo e o README pra detalhes técnicos.

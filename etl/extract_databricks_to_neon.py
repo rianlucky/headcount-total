@@ -160,7 +160,7 @@ def write_extra_metrics_to_neon(snapshot_date, obras_ativas: int, lojas_ativas: 
         with connection.cursor() as cursor:
             cursor.execute(
                 """
-                INSERT INTO headcount_extra_metrics (snapshot_date, obras_ativas, lojas_ativas)
+                INSERT INTO org.headcount_extra_metrics (snapshot_date, obras_ativas, lojas_ativas)
                 VALUES (%s, %s, %s)
                 ON CONFLICT (snapshot_date)
                 DO UPDATE SET obras_ativas = EXCLUDED.obras_ativas, lojas_ativas = EXCLUDED.lojas_ativas, loaded_at = now()
@@ -201,13 +201,13 @@ def write_to_neon(data: pd.DataFrame) -> None:
     with psycopg2.connect(database_url) as connection:
         with connection.cursor() as cursor:
             cursor.execute(
-                "DELETE FROM headcount_publico WHERE snapshot_date = ANY(%s::date[])",
+                "DELETE FROM org.headcount_publico WHERE snapshot_date = ANY(%s::date[])",
                 (snapshot_dates,),
             )
             execute_values(
                 cursor,
                 """
-                INSERT INTO headcount_publico
+                INSERT INTO org.headcount_publico
                     (snapshot_date, diretoria, area, job_level, job_function, state, city,
                      city_lat, city_lon, assignment_category, headcount)
                 VALUES %s

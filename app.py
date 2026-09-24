@@ -230,7 +230,7 @@ def load_headcount_data() -> tuple[pd.DataFrame, str]:
             query = """
                 SELECT snapshot_date, diretoria, area, job_level, job_function, state,
                        city, city_lat, city_lon, assignment_category, headcount
-                FROM headcount_publico
+                FROM org.headcount_publico
             """
             with psycopg2.connect(database_url) as connection:
                 data = pd.read_sql(query, connection)
@@ -257,7 +257,7 @@ def load_extra_metrics() -> tuple[int | None, int | None]:
 
         query = """
             SELECT obras_ativas, lojas_ativas
-            FROM headcount_extra_metrics
+            FROM org.headcount_extra_metrics
             ORDER BY snapshot_date DESC
             LIMIT 1
         """

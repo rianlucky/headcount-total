@@ -68,8 +68,13 @@ def _connect():
 
 @st.cache_resource
 def init_db() -> None:
+    # Só cria se não existir: o usuário do app (app_headcount) não tem permissão
+    # de CREATE no schema — e o Postgres exige essa permissão mesmo num
+    # "CREATE TABLE IF NOT EXISTS" de tabela já existente (migração 002, Neon).
     with _connect() as conn, conn.cursor() as cur:
-        cur.execute(CREATE_TABLE_SQL)
+        cur.execute("SELECT to_regclass('public.app_users')")
+        if cur.fetchone()[0] is None:
+            cur.execute(CREATE_TABLE_SQL)
         conn.commit()
 
 
