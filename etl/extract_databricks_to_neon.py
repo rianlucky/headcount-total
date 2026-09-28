@@ -74,7 +74,9 @@ def read_from_databricks() -> pd.DataFrame:
     query = """
         SELECT
             data_referencia AS snapshot_date,
-            TRY_CAST(centro_de_custo AS BIGINT) AS cc,
+            -- via DECIMAL: aceita sujeira como '52609.' (ponto final), que TRY_CAST direto
+            -- para BIGINT transformava em NULL ("Não informado")
+            CAST(TRY_CAST(TRIM(centro_de_custo) AS DECIMAL(20, 0)) AS BIGINT) AS cc,
             funcao_cargo,
             descricao_posicao,
             id_funcionario,
