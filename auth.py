@@ -6,7 +6,7 @@ e `src/auth_ui.py`), mas via psycopg2 puro em vez de sqlalchemy/st.connection,
 pra não introduzir uma dependência nova só pra isso.
 
 O acesso é liberado pelo DO inserindo o e-mail na tabela `app_users` (sem
-senha — ver scripts/grant_access.py). No primeiro login a própria pessoa
+senha — cadastro pela ferramenta local _neon/acessos/admin_acessos.py). No primeiro login a própria pessoa
 define sua senha; nos acessos seguintes, ela só precisa digitar a senha.
 Quem não tem o e-mail cadastrado não passa da primeira tela.
 

@@ -599,7 +599,7 @@ def render_city_map(data: pd.DataFrame, value: str, height: int) -> None:
 
 all_data, source_name = load_headcount_data()
 all_data["snapshot_date"] = pd.to_datetime(all_data["snapshot_date"]).dt.date
-# Presidência e Conselho Administrativo são duas diretorias reais no cc_mapping,
+# Presidência e Conselho Administrativo são duas diretorias reais no mapeamento oficial,
 # mas o painel público as exibe juntas — pedido do usuário em 2026-09-14.
 all_data["diretoria"] = all_data["diretoria"].replace(
     {"Presidencia": "Presidencia e Conselho Administrativo", "Conselho Administrativo": "Presidencia e Conselho Administrativo"}
@@ -613,7 +613,7 @@ obras_ativas, lojas_ativas = load_extra_metrics()
 # (ver etl/backfill_from_neon_history.py). HISTORICAL_TOTAL_SENTINEL só continua
 # aqui como proteção defensiva caso uma carga antiga/manual volte a gravar esse
 # sentinel. "Não informado" fica de fora da composição pública: são CCs ainda sem
-# diretoria/área mapeada em cc_mapping.json, não uma diretoria real da empresa.
+# diretoria/área no mapeamento oficial (core.mapeamento_diretoria), não uma diretoria real.
 breakdown_data = all_data[
     (all_data["diretoria"] != HISTORICAL_TOTAL_SENTINEL) & (all_data["diretoria"] != "Não informado")
 ]

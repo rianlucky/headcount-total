@@ -59,14 +59,14 @@ def read_from_databricks() -> pd.DataFrame:
 
     A agregação acontece no Databricks (GROUP BY na própria query) — nenhuma linha
     individual (com PII) sai do warehouse, só os totais por combinação de dimensões.
-    Diretoria e área vêm do CC_MAPPING (não do nome_diretoria/nome_centro_custo do
-    gold, que ficam desatualizados — ver comentário do CC_MAPPING acima).
+    Diretoria e área vêm do mapeamento oficial no Neon (core.mapeamento_diretoria +
+    _especial, ver etl/mapping.py), não do nome_diretoria/nome_centro_custo do gold, que ficam desatualizados.
     """
 
     hostname = _require_env("DATABRICKS_SERVER_HOSTNAME")
     http_path = _require_env("DATABRICKS_HTTP_PATH")
 
-    # id_funcionario e descricao_posicao só entram pra resolver SPECIAL_MAPPINGS (por
+    # id_funcionario e descricao_posicao só entram pra resolver as regras especiais (por
     # cargo/pessoa dentro de um CC específico) — caem fora do dataframe antes de
     # qualquer gravação no Neon, junto com cc/funcao_cargo/estado/descricao_posicao.
     # descricao_local é a chave usada pra cruzar com o relatório oficial de locais
@@ -132,7 +132,7 @@ def read_extra_metrics_from_databricks() -> tuple[object, int, int]:
     com 49) e "Lojas Ativas" (CC começa com 48), pedido do usuário em 2026-09-11.
     Direto no código bruto do centro de custo (não a "área" mapeada), porque o
     prefixo numérico é que carrega esse significado (49xxx = obra, 48xxx = loja/
-    ponto de venda) — confirmado batendo com o mapeamento manual (CC_MAPPING)."""
+    ponto de venda) — confirmado batendo com o mapeamento oficial de diretoria."""
 
     hostname = _require_env("DATABRICKS_SERVER_HOSTNAME")
     http_path = _require_env("DATABRICKS_HTTP_PATH")

@@ -713,5 +713,15 @@
     "cidade": "Votuporanga",
     "lat": -20.4237,
     "lon": -49.9781
+  },
+  "OBRA_LTDA_ARACATUBA_JARDIM_VIRGINIA_52591": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401
+  },
+  "OBRA_SA_RONDONOPOLIS_SANTO_EXPEDITO_F1_49306": {
+    "cidade": "Rondonópolis",
+    "lat": -16.4673,
+    "lon": -54.6372
   }
 }

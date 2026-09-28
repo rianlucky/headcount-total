@@ -3,7 +3,7 @@
 Usado tanto pelo job semanal (`extract_databricks_to_neon.py`, snapshot atual via
 `rh.gold.fato_funcionario_ativo`) quanto pelo backfill histórico
 (`backfill_headcount_history.py`, snapshots passados via `rh.bronze.oracle_hcm_pit_*`)
-— a mesma correção de CC_MAPPING/SPECIAL_MAPPINGS precisa valer nos dois, senão o
+— o mesmo mapeamento oficial de diretoria precisa valer nos dois, senão o
 histórico e o presente divergem na mesma diretoria/área.
 """
 from __future__ import annotations
@@ -15,22 +15,33 @@ ROOT = Path(__file__).resolve().parent
 
 NAO_INFORMADO = "Não informado"
 
-# CC -> {diretoria, area}, mapeamento manual fornecido pelo usuário em 2026-09-11
-# (mesmo racional do "Mapeamento CC Manual" do modelo de dados do Genie): o join
-# automático centro_de_custo -> nome_diretoria do gold fica desatualizado depois
-# de reorganizações. Cobre 100% dos CCs em uso hoje — se um CC novo aparecer sem
-# entrada aqui, cai em "Não informado" em vez de quebrar.
-CC_MAPPING = json.loads((ROOT / "cc_mapping.json").read_text(encoding="utf-8"))
+# Diretoria/área: fonte OFICIAL da Central (a mesma de todos os painéis), lida do Neon —
+#   core.mapeamento_diretoria           CC -> diretoria/área (planilha _neon/mapeamento/Mapeamento Diretoria.xlsx)
+#   core.mapeamento_diretoria_especial  correções por pessoa (by_person, id_funcionario) e por cargo
+#                                       (by_position) em CCs que juntam várias diretorias (ex.: 47700
+#                                       Presidência Executiva, 47276 CAPEX)
+# Substitui os antigos cc_mapping.json/special_mappings.json (28/09/2026): as 22 regras especiais
+# eram idênticas às oficiais; o JSON só estava desatualizado (Obras MG/MT e 3 CCs novos).
+# Carregado uma vez por execução. CC sem entrada cai em "Não informado" em vez de quebrar.
+_OFICIAL: tuple[dict, dict] | None = None
 
-# Correção pontual por CC: alguns centros de custo (ex.: 47700 "Presidência Executiva",
-# 47276 "CAPEX - Sistemas de Tecnologia") concentram gente de várias diretorias reais
-# sob um único CC administrativo — o mapeamento por CC sozinho não dá conta. Definido
-# com o usuário em 2026-09-11 a partir de funcao_cargo/descricao_posicao/id_funcionario.
-# "by_position" resolve pelo título do cargo (só dentro do CC listado); "by_person"
-# resolve por id_funcionario quando dois titulares têm o mesmo cargo mas vão para
-# diretorias diferentes (ex.: dois "Diretor de Negócios", um pra cada unidade). Nunca
-# sai nome de ninguém daqui pro Neon/painel — só id_funcionario é usado como chave.
-SPECIAL_MAPPINGS = json.loads((ROOT / "special_mappings.json").read_text(encoding="utf-8"))
+
+def _mapeamento_oficial() -> tuple[dict, dict]:
+    global _OFICIAL
+    if _OFICIAL is None:
+        import os
+        import psycopg2
+        from dotenv import load_dotenv
+        load_dotenv(ROOT / ".env")
+        with psycopg2.connect(os.environ["NEON_DATABASE_URL"]) as conn, conn.cursor() as cur:
+            cur.execute("SELECT centro_de_custo, diretoria, area FROM core.mapeamento_diretoria")
+            cc_map = {str(cc): (d, a) for cc, d, a in cur.fetchall()}
+            cur.execute("SELECT centro_de_custo, tipo, chave, diretoria, area FROM core.mapeamento_diretoria_especial")
+            especiais: dict = {}
+            for cc, tipo, chave, d, a in cur.fetchall():
+                especiais.setdefault(str(cc), {})[(tipo, str(chave))] = (d, a)
+        _OFICIAL = (cc_map, especiais)
+    return _OFICIAL
 
 # descricao_local (ex.: "OBRA_SA_PACAEMBU_SAO_CARLOS_49277") -> {cidade, lat, lon}.
 # Cruzado com o relatório oficial de locais do Oracle HCM
@@ -71,21 +82,18 @@ UF_TO_STATE = {
 
 
 def resolve_diretoria_area(cc: str | None, descricao_posicao: str | None, id_funcionario) -> tuple[str, str]:
-    """Resolve diretoria/área de uma pessoa: SPECIAL_MAPPINGS (por pessoa, depois por
-    cargo) tem prioridade sobre o default do CC_MAPPING."""
-    special = SPECIAL_MAPPINGS.get(cc) if cc is not None else None
-    if special:
-        by_person = special.get("by_person", {}).get(str(id_funcionario))
-        if by_person:
-            return by_person["diretoria"], by_person["area"]
-        position = (descricao_posicao or "").rsplit(" - ", 1)[0].strip()
-        by_position = special.get("by_position", {}).get(position)
-        if by_position:
-            return by_position["diretoria"], by_position["area"]
-    default = CC_MAPPING.get(cc) if cc is not None else None
-    if isinstance(default, dict):
-        return default["diretoria"], default["area"]
-    return NAO_INFORMADO, NAO_INFORMADO
+    """Resolve diretoria/área de uma pessoa pelo mapeamento oficial: regra especial por pessoa,
+    depois por cargo (título sem o sufixo " - ..."), depois o CC."""
+    cc_map, especiais = _mapeamento_oficial()
+    cc = None if cc is None else str(cc)
+    esp = especiais.get(cc, {}) if cc is not None else {}
+    r = esp.get(("by_person", str(id_funcionario)))
+    if r is None:
+        posicao = descricao_posicao if isinstance(descricao_posicao, str) else ""
+        r = esp.get(("by_position", posicao.rsplit(" - ", 1)[0].strip()))
+    if r is None and cc is not None:
+        r = cc_map.get(cc)
+    return r if r else (NAO_INFORMADO, NAO_INFORMADO)
 
 
 def resolve_job_level(funcao_cargo: str | None) -> str:
