@@ -47,6 +47,20 @@ logging.basicConfig(
 log = logging.getLogger("extract_databricks_to_neon")
 
 
+
+# Quadro na data da base, pela regra única de headcount da Central (decisão de 28/09/2026):
+# admitido até a data e sem desligamento ou com desligamento DEPOIS dela; uma linha por pessoa.
+# Não usa rh.gold.fato_funcionario_ativo, que já tira quem tem desligamento lançado com data
+# futura (2 pessoas a menos que os demais painéis em 27/09). Mesma regra do
+# core.fato_funcionario_ativo montado por mirror_fatos_to_neon.py.
+ATIVOS_POR_DATA = """(
+    SELECT f.*
+    FROM rh.gold.fato_funcionario f
+    CROSS JOIN (SELECT MAX(data_referencia) AS d FROM rh.gold.fato_funcionario) r
+    WHERE f.data_admissao <= r.d AND (f.data_desligamento IS NULL OR f.data_desligamento > r.d)
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY f.id_funcionario ORDER BY f.data_admissao DESC, f.codigo_atribuicao DESC) = 1
+) ativos"""
+
 def _require_env(name: str) -> str:
     value = os.getenv(name)
     if not value:
@@ -55,7 +69,7 @@ def _require_env(name: str) -> str:
 
 
 def read_from_databricks() -> pd.DataFrame:
-    """Lê e já agrega o headcount atual de `rh.gold.fato_funcionario_ativo`.
+    """Lê e já agrega o headcount atual (regra de data, ver ATIVOS_POR_DATA).
 
     A agregação acontece no Databricks (GROUP BY na própria query) — nenhuma linha
     individual (com PII) sai do warehouse, só os totais por combinação de dimensões.
@@ -71,7 +85,7 @@ def read_from_databricks() -> pd.DataFrame:
     # qualquer gravação no Neon, junto com cc/funcao_cargo/estado/descricao_posicao.
     # descricao_local é a chave usada pra cruzar com o relatório oficial de locais
     # (rh.silver.oracle_hcm_pit_est_00006_locais_relatorio) em mapping.LOCAL_MAPPING.
-    query = """
+    query = f"""
         SELECT
             data_referencia AS snapshot_date,
             -- via DECIMAL: aceita sujeira como '52609.' (ponto final), que TRY_CAST direto
@@ -84,7 +98,7 @@ def read_from_databricks() -> pd.DataFrame:
             descricao_local,
             categoria_atribuicao,
             COUNT(*) AS headcount
-        FROM rh.gold.fato_funcionario_ativo
+        FROM {ATIVOS_POR_DATA}
         GROUP BY 1, 2, funcao_cargo, descricao_posicao, id_funcionario, estado, descricao_local, categoria_atribuicao
     """
     with mapping.connect_databricks(hostname, http_path) as connection:
@@ -139,12 +153,12 @@ def read_extra_metrics_from_databricks() -> tuple[object, int, int]:
     hostname = _require_env("DATABRICKS_SERVER_HOSTNAME")
     http_path = _require_env("DATABRICKS_HTTP_PATH")
 
-    query = """
+    query = f"""
         SELECT
             data_referencia AS snapshot_date,
             COUNT(DISTINCT CASE WHEN centro_de_custo LIKE '49%' THEN centro_de_custo END) AS obras_ativas,
             COUNT(DISTINCT CASE WHEN centro_de_custo LIKE '48%' THEN centro_de_custo END) AS lojas_ativas
-        FROM rh.gold.fato_funcionario_ativo
+        FROM {ATIVOS_POR_DATA}
         GROUP BY data_referencia
     """
     with mapping.connect_databricks(hostname, http_path) as connection:

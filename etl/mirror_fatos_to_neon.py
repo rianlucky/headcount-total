@@ -106,6 +106,33 @@ def replace_table(pg_connection, table: str, data: pd.DataFrame) -> None:
     pg_connection.commit()
 
 
+def rebuild_ativo_por_data(pg_connection) -> int:
+    """core.fato_funcionario_ativo = quem está no quadro na data da base, pela regra única de
+    headcount da Central (decisão de 28/09/2026): admitido até a data e sem desligamento ou com
+    desligamento DEPOIS dela; uma linha por pessoa (a atribuição mais recente).
+    A rh.gold.fato_funcionario_ativo do Databricks já tira quem tem desligamento lançado com
+    data futura — contava 2 pessoas a menos que os painéis por data (1.518 x 1.520 em 27/09).
+    Mesmas colunas da core.fato_funcionario, então sai da própria tabela espelhada."""
+    with pg_connection.cursor() as cursor:
+        cursor.execute("""SELECT column_name FROM information_schema.columns
+                          WHERE table_schema = 'core' AND table_name = 'fato_funcionario_ativo'
+                          ORDER BY ordinal_position""")
+        cols = ", ".join(f'"{c}"' for (c,) in cursor.fetchall())
+        cursor.execute('TRUNCATE TABLE core."fato_funcionario_ativo"')
+        cursor.execute(f"""
+            INSERT INTO core."fato_funcionario_ativo" ({cols})
+            SELECT {cols} FROM (
+                SELECT DISTINCT ON (f.id_funcionario) f.*
+                FROM core."fato_funcionario" f
+                CROSS JOIN (SELECT max(data_referencia) AS d FROM core."fato_funcionario") r
+                WHERE f.data_admissao <= r.d AND (f.data_desligamento IS NULL OR f.data_desligamento > r.d)
+                ORDER BY f.id_funcionario, f.data_admissao DESC, f.codigo_atribuicao DESC
+            ) a""")
+        n = cursor.rowcount
+    pg_connection.commit()
+    return n
+
+
 def main() -> int:
     import psycopg2
 
@@ -116,6 +143,8 @@ def main() -> int:
     with mapping.connect_databricks(hostname, http_path) as db_connection:
         with psycopg2.connect(database_url) as pg_connection:
             for table in TABLES:
+                if table == "fato_funcionario_ativo":
+                    continue  # montada no Neon pela regra de data, logo abaixo
                 log.info("Espelhando rh.gold.%s -> core.%s", table, table)
                 columns_meta = describe_table(db_connection, table)
                 columns = [c for c, _ in columns_meta]
@@ -123,6 +152,8 @@ def main() -> int:
                 data = read_table(db_connection, table, columns)
                 replace_table(pg_connection, table, data)
                 log.info("  %d linhas, %d colunas gravadas", len(data), len(columns))
+            n = rebuild_ativo_por_data(pg_connection)
+            log.info("core.fato_funcionario_ativo montada pela regra de data: %d pessoas", n)
     log.info("Mirror de fatos (schema core) gravado no Neon com sucesso")
     return 0
 
