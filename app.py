@@ -97,6 +97,7 @@ st.markdown(
 # auth.py). Bloqueia o resto do script até autenticar.
 auth.init_db()
 auth.require_login()
+auth.exigir_acesso_ao_painel("headcount")  # matriz de acessos (acesso.v_permissoes)
 
 # Brand palette is defined in .streamlit/config.toml (navy institucional #064D66,
 # unified with the KPI card's Vega-Lite spec). Keep the app usable without CSS.
