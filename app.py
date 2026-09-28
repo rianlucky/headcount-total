@@ -632,7 +632,9 @@ DEFAULT_PERIOD_MONTHS = 6
 # `image` leva o ícone + "Headcount" compostos numa imagem só (só o ícone pro
 # estado fechado, em `icon_image`), porque st.logo não aceita texto ao lado.
 if ICON_PATH.exists():
-    wordmark = _build_logo_wordmark(str(ICON_PATH), "Headcount")
+    # imagem pronta (gerada com a fonte do Windows): no Streamlit Cloud, gerar na hora dava nome minúsculo
+    _pronto = ICON_PATH.parent / "logo-wordmark.png"
+    wordmark = str(_pronto) if _pronto.exists() else _build_logo_wordmark(str(ICON_PATH), "Headcount")
     st.logo(wordmark if wordmark is not None else str(ICON_PATH), icon_image=str(ICON_PATH), size="large")
 
 auth.render_sidebar_account()
