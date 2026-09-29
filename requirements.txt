@@ -1,5 +1,6 @@
-streamlit>=1.57
+streamlit==1.61.1
 pandas>=2.2
-numpy>=1.26
 psycopg2-binary>=2.9
 bcrypt>=4.0
+pydeck>=0.9
+openpyxl>=3.1

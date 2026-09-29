@@ -1,24 +1,17 @@
-"""Autenticação por e-mail, persistida no mesmo Neon que já guarda os dados de
-headcount (mesma `database_url` de `.streamlit/secrets.toml`, tabela própria
-`app_users` — não mexe nas tabelas de dados). Espelha o fluxo do painel
-Turnover Comercial (`.../Indicadores Parceiros/Turnover Comercial/src/auth.py`
-e `src/auth_ui.py`), mas via psycopg2 puro em vez de sqlalchemy/st.connection,
-pra não introduzir uma dependência nova só pra isso.
+"""Login por e-mail — o mesmo dos outros painéis da Central (tabela acesso.app_users no Neon).
 
-O acesso é liberado pelo DO inserindo o e-mail na tabela `app_users` (sem
-senha — cadastro pela ferramenta local _neon/acessos/admin_acessos.py). No primeiro login a própria pessoa
-define sua senha; nos acessos seguintes, ela só precisa digitar a senha.
-Quem não tem o e-mail cadastrado não passa da primeira tela.
+O acesso é liberado cadastrando o e-mail em acesso.app_users (ferramenta local de acessos,
+_neon/acessos/admin_acessos.py); no primeiro
+login a pessoa cria a senha; depois de MAX_TENTATIVAS senhas erradas seguidas a conta fica
+bloqueada por BLOQUEIO_MINUTOS. Quem já tem login em outro painel entra com a mesma senha.
 
-Trava por tentativas: depois de MAX_FAILED_ATTEMPTS senhas erradas seguidas,
-a conta fica bloqueada por LOCKOUT_MINUTES — mitiga força bruta sem precisar
-de nenhum serviço externo (rate-limit por e-mail, no próprio Postgres).
+O usuário de banco do painel lê e atualiza acesso.app_users pelo grupo de login (migração 012).
+E-mail de suporte: [app] email_suporte nos Secrets (fora do código, que é público).
 """
-
 from __future__ import annotations
 
 import base64
-import os
+from functools import lru_cache
 from pathlib import Path
 from typing import Callable
 
@@ -28,294 +21,248 @@ import psycopg2
 import psycopg2.extras
 import streamlit as st
 
-SUPPORT_EMAIL = "rian.jesus@pacaembu.com"
+TABELA = "acesso.app_users"  # nome completo: o search_path do usuário do painel é só `core`
+MAX_TENTATIVAS = 5
+BLOQUEIO_MINUTOS = 15
+ICONE = Path(__file__).parent / "assets" / "icone-headcount-transparente.png"
+TITULO = "Headcount Total"
+SUBTITULO = "Headcount, alocação de mão de obra e evolução por data ou período da Pacaembu Construtora"
 
-# Nome do app + resumo mostrados na pill da tela de login (mesmo padrão do
-# painel Turnover Comercial — ver _login_shell). Ajustar aqui pra reusar esse
-# layout em outro painel.
-APP_TITLE = "Headcount Pacaembu"
-APP_SUMMARY = "Consulta de headcount, alocação de mão de obra e evolução por período da Pacaembu"
+# Tela de login padrão da Central (29/09/2026): um cartão só, centralizado, que funciona igual em
+# computador, tablet e celular. Topo com formas nas cores da marca + ícone do painel; campos com
+# rótulo (fonte 16px: o iPhone não dá zoom), Enter envia (st.form), botões de 46px para toque,
+# ação principal em azul e "Voltar"/"Sair" em cinza.
+_CSS = """<style>
+[data-testid="stMainBlockContainer"] { padding-top: 2rem; }
+.st-key-login_page { display: flex; justify-content: center; margin-top: 5vh; }
+.st-key-login_card {
+    width: min(440px, 100%) !important; margin: 0 auto; background: #FFFFFF; border-radius: 22px;
+    box-shadow: 0 18px 50px rgba(6, 77, 102, .16); overflow: hidden; padding: 0 0 24px !important; gap: 0 !important;
+}
+.login-hero { position: relative; height: 176px; overflow: hidden; background: #FFFFFF; }
+.login-hero .forma-amarela { position: absolute; left: -70px; top: -120px; width: 330px; height: 290px; border-radius: 50%;
+    background: linear-gradient(160deg, #FFA724 0%, #FAB900 100%); }
+.login-hero .forma-azul { position: absolute; right: -90px; top: -150px; width: 330px; height: 330px; border-radius: 50%;
+    background: linear-gradient(200deg, #003244 0%, #064D66 70%); }
+.login-hero .forma-vermelha { position: absolute; right: 40px; top: 118px; width: 14px; height: 14px; border-radius: 50%; background: #F02727; }
+.login-icone { position: absolute; left: 50%; bottom: 6px; transform: translateX(-50%); width: 84px; height: 84px; border-radius: 22px;
+    background: #FFFFFF; box-shadow: 0 10px 26px rgba(0, 50, 68, .22); display: flex; align-items: center; justify-content: center; }
+.login-icone img { width: 58px; height: 58px; object-fit: contain; display: block; }
+.login-marca { text-align: center; padding: 14px 30px 4px; }
+.login-marca .nome { font-size: 1.35rem; font-weight: 700; color: #064D66; line-height: 1.25; }
+.login-marca .sub { font-size: .83rem; color: #6B7280; line-height: 1.45; margin-top: 4px; }
+.login-passo { padding: 18px 30px 4px; }
+.login-passo .titulo { font-size: 1.02rem; font-weight: 650; color: #1F2937; }
+.login-passo .sub { font-size: .84rem; color: #6B7280; margin-top: 2px; line-height: 1.45; overflow-wrap: anywhere; }
+.st-key-login_form { padding: 6px 30px 0; }
+.st-key-login_form [data-testid="stForm"] { border: none; padding: 0; }
+.st-key-login_form label p { font-size: .82rem !important; font-weight: 600; color: #374151; }
+.st-key-login_form input { font-size: 16px !important; min-height: 44px; }
+.st-key-login_form [data-baseweb="input"] { border-radius: 10px; }
+.st-key-login_form button { min-height: 46px; border-radius: 10px !important; font-weight: 600 !important; }
+.st-key-login_form button[kind^="primary"] { background: #064D66 !important; border: none !important; }
+.st-key-login_form button[kind^="primary"]:hover { background: #003244 !important; }
+.st-key-login_form button[kind^="primary"] p { color: #FFFFFF !important; font-weight: 600; }
+.st-key-login_form button[kind^="secondary"] { background: #F3F4F6 !important; border: 1px solid #E5E7EB !important; }
+.st-key-login_form button[kind^="secondary"] p { color: #4B5563 !important; font-weight: 600; }
+.st-key-login_form button[kind^="secondary"]:hover { background: #E5E7EB !important; }
+.login-rodape { text-align: center; font-size: .72rem; color: #9CA3AF; padding: 16px 30px 0; letter-spacing: .02em; }
+@media (max-width: 640px) {
+    .st-key-login_page { margin-top: 0; }
+    [data-testid="stMainBlockContainer"] { padding: 3.6rem .75rem 1rem; }
+    .st-key-login_card { border-radius: 18px; }
+    .login-hero { height: 158px; }
+    .login-marca, .login-passo, .st-key-login_form, .login-rodape { padding-left: 20px; padding-right: 20px; }
+}
+</style>"""
 
-MAX_FAILED_ATTEMPTS = 5
-LOCKOUT_MINUTES = 15
 
-_LOGO_PATH = Path(__file__).parent / "assets" / "icone-headcount-transparente.png"
+# ----------------------------------------------------------------------------- banco
 
-CREATE_TABLE_SQL = """
-CREATE TABLE IF NOT EXISTS app_users (
-    email TEXT PRIMARY KEY,
-    name TEXT,
-    password_hash TEXT,
-    failed_attempts INTEGER NOT NULL DEFAULT 0,
-    locked_until TIMESTAMPTZ,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
-)
-"""
+def _conectar():
+    return psycopg2.connect(st.secrets["neon"]["database_url"], connect_timeout=10)
 
 
-def _database_url() -> str | None:
-    """Mesma connection string usada pra ler os dados de headcount (ver app.py)."""
+def _email_suporte() -> str:
     try:
-        return st.secrets["neon"]["database_url"]
-    except Exception:
-        return os.getenv("NEON_DATABASE_URL")
+        return st.secrets["app"]["email_suporte"]
+    except Exception:  # noqa: BLE001
+        return "o time de People Analytics"
 
 
-def _connect():
-    return psycopg2.connect(_database_url())
-
-
-@st.cache_resource
-def init_db() -> None:
-    # Só cria se não existir: o usuário do app (app_headcount) não tem permissão
-    # de CREATE no schema — e o Postgres exige essa permissão mesmo num
-    # "CREATE TABLE IF NOT EXISTS" de tabela já existente (migração 002, Neon).
-    with _connect() as conn, conn.cursor() as cur:
-        cur.execute("SELECT to_regclass('public.app_users')")
-        if cur.fetchone()[0] is None:
-            cur.execute(CREATE_TABLE_SQL)
-        conn.commit()
-
-
-def hash_password(password: str) -> str:
-    return bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-
-
-def check_password(password: str, password_hash: str) -> bool:
-    return bcrypt.checkpw(password.encode("utf-8"), password_hash.encode("utf-8"))
-
-
-def normalize_email(email: str) -> str:
+def normalizar(email: str) -> str:
     return email.strip().lower()
 
 
-def get_user(email: str) -> dict | None:
-    with _connect() as conn, conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute(
-            "SELECT email, name, password_hash, failed_attempts, locked_until FROM app_users WHERE email = %s",
-            (normalize_email(email),),
-        )
-        row = cur.fetchone()
-    return dict(row) if row else None
+def buscar_usuario(email: str) -> dict | None:
+    with _conectar() as conn, conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+        cur.execute(f"SELECT email, name, password_hash, failed_attempts, locked_until FROM {TABELA} WHERE email = %s",
+                    (normalizar(email),))
+        linha = cur.fetchone()
+    return dict(linha) if linha else None
 
 
-def needs_password_setup(user: dict) -> bool:
-    """True quando o e-mail tem acesso liberado mas ainda não definiu uma senha."""
-    return not user.get("password_hash")
+def bloqueado(usuario: dict) -> bool:
+    ate = usuario.get("locked_until")
+    return ate is not None and ate > pd.Timestamp.now(tz="UTC")
 
 
-def is_locked(user: dict) -> bool:
-    locked_until = user.get("locked_until")
-    if locked_until is None:
-        return False
-    return locked_until > pd.Timestamp.now(tz="UTC")
+def minutos_restantes(usuario: dict) -> int:
+    seg = (usuario["locked_until"] - pd.Timestamp.now(tz="UTC")).total_seconds()
+    return max(1, int(-(-seg // 60)))
 
 
-def lock_remaining_minutes(user: dict) -> int:
-    """Minutos restantes de bloqueio (arredondado pra cima) — só chamar se is_locked(user)."""
-    remaining = (user["locked_until"] - pd.Timestamp.now(tz="UTC")).total_seconds()
-    return max(1, int(-(-remaining // 60)))
-
-
-def _register_failed_attempt(email: str) -> None:
-    with _connect() as conn, conn.cursor() as cur:
-        cur.execute(
-            """
-            UPDATE app_users
+def _falhou(email: str) -> None:
+    with _conectar() as conn, conn.cursor() as cur:
+        cur.execute(f"""
+            UPDATE {TABELA}
             SET failed_attempts = failed_attempts + 1,
-                locked_until = CASE
-                    WHEN failed_attempts + 1 >= %(max_attempts)s THEN now() + (%(lockout_minutes)s * interval '1 minute')
-                    ELSE locked_until
-                END,
+                locked_until = CASE WHEN failed_attempts + 1 >= %(max)s
+                                    THEN now() + (%(min)s * interval '1 minute') ELSE locked_until END,
                 updated_at = now()
-            WHERE email = %(email)s
-            """,
-            {"email": normalize_email(email), "max_attempts": MAX_FAILED_ATTEMPTS, "lockout_minutes": LOCKOUT_MINUTES},
-        )
-        conn.commit()
+            WHERE email = %(email)s""", {"email": normalizar(email), "max": MAX_TENTATIVAS, "min": BLOQUEIO_MINUTOS})
 
 
-def _reset_failed_attempts(email: str) -> None:
-    with _connect() as conn, conn.cursor() as cur:
-        cur.execute(
-            "UPDATE app_users SET failed_attempts = 0, locked_until = NULL, updated_at = now() WHERE email = %s",
-            (normalize_email(email),),
-        )
-        conn.commit()
+def _zerar_tentativas(email: str) -> None:
+    with _conectar() as conn, conn.cursor() as cur:
+        cur.execute(f"UPDATE {TABELA} SET failed_attempts = 0, locked_until = NULL, updated_at = now() WHERE email = %s",
+                    (normalizar(email),))
 
 
-def verify_login(email: str, password: str) -> dict | None:
-    user = get_user(email)
-    if not user or not user.get("password_hash"):
+def verificar(email: str, senha: str) -> dict | None:
+    usuario = buscar_usuario(email)
+    if not usuario or not usuario.get("password_hash") or bloqueado(usuario):
         return None
-    if is_locked(user):
-        return None
-    if check_password(password, user["password_hash"]):
-        _reset_failed_attempts(email)
-        return user
-    _register_failed_attempt(email)
+    if bcrypt.checkpw(senha.encode(), usuario["password_hash"].encode()):
+        _zerar_tentativas(email)
+        return usuario
+    _falhou(email)
     return None
 
 
-def set_initial_password(email: str, password: str) -> dict | None:
-    email = normalize_email(email)
-    with _connect() as conn, conn.cursor() as cur:
-        cur.execute(
-            "UPDATE app_users SET password_hash = %s, updated_at = now() WHERE email = %s",
-            (hash_password(password), email),
-        )
-        conn.commit()
-    return get_user(email)
+def criar_senha(email: str, senha: str) -> dict | None:
+    with _conectar() as conn, conn.cursor() as cur:
+        cur.execute(f"UPDATE {TABELA} SET password_hash = %s, updated_at = now() WHERE email = %s",
+                    (bcrypt.hashpw(senha.encode(), bcrypt.gensalt()).decode(), normalizar(email)))
+    return buscar_usuario(email)
 
 
-# ── UI: mesmo fluxo em duas telas do Turnover Comercial (cartão dividido,
-# marca à esquerda / formulário à direita) — cores trocadas pro navy da marca.
+# ----------------------------------------------------------------------------- telas
+
+@lru_cache(maxsize=1)
+def _icone_b64() -> str:
+    return "data:image/png;base64," + base64.b64encode(ICONE.read_bytes()).decode()
 
 
-@st.cache_data
-def _logo_b64() -> str:
-    return base64.b64encode(_LOGO_PATH.read_bytes()).decode()
+def _cartao(titulo: str, subtitulo: str, formulario: Callable[[], None]) -> None:
+    st.html(_CSS)
+    with st.container(key="login_page"), st.container(key="login_card"):
+        st.html(f"""<div class="login-hero"><div class="forma-amarela"></div><div class="forma-azul"></div>
+            <div class="forma-vermelha"></div><div class="login-icone"><img src="{_icone_b64()}" alt="" /></div></div>
+            <div class="login-marca"><div class="nome">{TITULO}</div><div class="sub">{SUBTITULO}</div></div>
+            <div class="login-passo"><div class="titulo">{titulo}</div><div class="sub">{subtitulo}</div></div>""")
+        with st.container(key="login_form"):
+            formulario()
+        st.html('<div class="login-rodape">Pacaembu Construtora · Central de Gente &amp; Dados</div>')
 
 
-def _login_shell(title: str, subtitle: str, render_form: Callable[[], None]) -> None:
-    with st.container(key="login_page"):
-        _, mid, _ = st.columns([1, 2.3, 1])
-        with mid:
-            with st.container(border=True, key="login_card"):
-                left, right = st.columns([1, 1.25])
-                with left:
-                    with st.container(key="login_left"):
-                        st.html(
-                            '<div class="login-logo-pill">'
-                            f'<img src="data:image/png;base64,{_logo_b64()}" />'
-                            f'<span class="login-pill-title">{APP_TITLE}</span>'
-                            "</div>"
-                            f'<p class="login-brand-sub">{APP_SUMMARY}</p>'
-                        )
-                with right:
-                    with st.container(key="login_right"):
-                        st.html(f'<div class="login-form-title">{title}</div><p class="login-form-sub">{subtitle}</p>')
-                        render_form()
+def _voltar(rotulo: str = "Voltar", key: str = "login_voltar") -> None:
+    """Botão cinza que volta para a tela do e-mail."""
+    if st.button(rotulo, key=key, width="stretch"):
+        st.session_state["auth_user"] = None
+        st.session_state["auth_email"] = None
+        st.rerun()
 
 
-def _screen_email() -> None:
+def _tela_email() -> None:
     def form() -> None:
-        email = st.text_input("E-mail", label_visibility="collapsed", placeholder="seu.email@pacaembu.com")
-        if st.button("Continuar", width="stretch"):
-            normalized = normalize_email(email)
-            if not normalized or "@" not in normalized:
+        with st.form("login_email", border=False):
+            email = st.text_input("E-mail corporativo", placeholder="seu.email@pacaembu.com", autocomplete="email")
+            enviar = st.form_submit_button("Continuar", type="primary", width="stretch")
+        if enviar:
+            if "@" not in normalizar(email):
                 st.error("Informe um e-mail válido.")
             else:
-                st.session_state["auth_email"] = normalized
+                st.session_state["auth_email"] = normalizar(email)
                 st.rerun()
+    _cartao("Entrar", "Use o seu e-mail da Pacaembu Construtora.", form)
 
-    _login_shell("Entrar", "Digite seu e-mail corporativo para acessar o painel.", form)
 
-
-def _screen_connection_error() -> None:
+def _tela_erro_conexao() -> None:
     def form() -> None:
-        st.error("Não foi possível conectar ao banco de dados agora. Isso costuma ser passageiro — tente novamente em alguns segundos.")
-        if st.button("Tentar novamente", width="stretch"):
+        st.error("Não foi possível conectar ao banco de dados agora. Isso costuma ser passageiro — tente de novo em alguns segundos.")
+        if st.button("Tentar novamente", type="primary", width="stretch"):
             st.rerun()
+        _voltar()
+    _cartao("Erro temporário de conexão", "Não conseguimos falar com o banco de dados agora.", form)
 
-    _login_shell("Erro temporário de conexão", "Não conseguimos falar com o banco de dados agora.", form)
 
-
-def _screen_no_access(email: str) -> None:
+def _tela_sem_acesso(email: str) -> None:
     def form() -> None:
-        st.warning(f"O e-mail **{email}** ainda não tem acesso a este painel. Solicite a inclusão para **{SUPPORT_EMAIL}**.")
-        if st.button("Tentar outro e-mail", width="stretch"):
-            st.session_state["auth_email"] = None
-            st.rerun()
-
-    _login_shell("Acesso não encontrado", "Esse e-mail ainda não está liberado.", form)
+        st.warning(f"O e-mail **{email}** ainda não tem acesso. Solicite a inclusão para **{_email_suporte()}**.")
+        _voltar()
+    _cartao("Acesso não encontrado", "Esse e-mail ainda não está liberado.", form)
 
 
-def _screen_set_password(user: dict) -> None:
+def _tela_criar_senha(usuario: dict) -> None:
     def form() -> None:
-        password = st.text_input("Senha", type="password", placeholder="Crie uma senha (mín. 8 caracteres)")
-        confirm = st.text_input("Confirmar senha", type="password", placeholder="Digite a senha de novo")
-        if st.button("Criar senha e entrar", width="stretch"):
-            if len(password) < 8:
+        with st.form("login_criar_senha", border=False):
+            senha = st.text_input("Nova senha", type="password", placeholder="Mínimo de 8 caracteres", autocomplete="new-password")
+            conf = st.text_input("Confirmar senha", type="password", placeholder="Digite a senha de novo", autocomplete="new-password")
+            enviar = st.form_submit_button("Criar senha e entrar", type="primary", width="stretch")
+        if enviar:
+            if len(senha) < 8:
                 st.error("A senha precisa ter pelo menos 8 caracteres.")
-            elif password != confirm:
+            elif senha != conf:
                 st.error("As senhas não coincidem.")
             else:
-                st.session_state["auth_user"] = set_initial_password(user["email"], password)
+                st.session_state["auth_user"] = criar_senha(usuario["email"], senha)
                 st.rerun()
+        _voltar()
+    _cartao(f"Olá, {usuario.get('name') or usuario['email']}", "Primeiro acesso: crie a sua senha. Ela vale para todos os painéis.", form)
 
-    name = user.get("name") or user["email"]
-    _login_shell(f"Olá, {name}", "Este é seu primeiro acesso — crie uma senha.", form)
 
-
-def _screen_login(user: dict) -> None:
+def _tela_senha(usuario: dict) -> None:
     def form() -> None:
-        if is_locked(user):
-            minutos = lock_remaining_minutes(user)
-            st.warning(f"Conta temporariamente bloqueada por tentativas de senha incorreta. Tente novamente em ~{minutos} minuto(s).")
-            if st.button("Usar outro e-mail", key="switch_email"):
-                st.session_state["auth_email"] = None
-                st.rerun()
-            return
-
-        password = st.text_input("Senha", type="password", label_visibility="collapsed", placeholder="Digite sua senha")
-        if st.button("Entrar", width="stretch"):
-            verified = verify_login(user["email"], password)
-            if verified:
-                st.session_state["auth_user"] = verified
-                st.rerun()
-            else:
-                refreshed = get_user(user["email"])
-                if refreshed and is_locked(refreshed):
-                    st.error(f"Muitas tentativas erradas — conta bloqueada por ~{lock_remaining_minutes(refreshed)} minuto(s).")
-                else:
-                    st.error("Senha incorreta.")
-        if st.button("Usar outro e-mail", key="switch_email"):
-            st.session_state["auth_email"] = None
-            st.rerun()
-
-    name = user.get("name") or user["email"]
-    _login_shell(f"Olá, {name}", "Digite sua senha para entrar.", form)
+        if bloqueado(usuario):
+            st.warning(f"Conta temporariamente bloqueada por tentativas de senha incorreta. Tente de novo em ~{minutos_restantes(usuario)} minuto(s).")
+        else:
+            with st.form("login_senha", border=False):
+                senha = st.text_input("Senha", type="password", placeholder="Digite sua senha", autocomplete="current-password")
+                enviar = st.form_submit_button("Entrar", type="primary", width="stretch")
+            if enviar:
+                ok = verificar(usuario["email"], senha)
+                if ok:
+                    st.session_state["auth_user"] = ok
+                    st.rerun()
+                novo = buscar_usuario(usuario["email"])
+                st.error(f"Muitas tentativas erradas — conta bloqueada por ~{minutos_restantes(novo)} minuto(s)."
+                         if novo and bloqueado(novo) else "Senha incorreta.")
+        _voltar()
+    _cartao(f"Olá, {usuario.get('name') or usuario['email']}", f"Digite a senha de {usuario['email']}.", form)
 
 
-def require_login() -> None:
-    """Bloqueia o restante do script até o usuário estar autenticado."""
+def exigir_login() -> None:
+    """Para o script até a pessoa estar autenticada. Depois disso, a barra lateral do
+    painel_padrao mostra "Olá, {nome}" e o botão Sair (lendo st.session_state["auth_user"])."""
     if st.session_state.get("auth_user") is not None:
         return
-
     email = st.session_state.get("auth_email")
     if not email:
-        _screen_email()
+        _tela_email()
         st.stop()
-
     try:
-        user = get_user(email)
-    except Exception:
-        _screen_connection_error()
+        usuario = buscar_usuario(email)
+    except Exception:  # noqa: BLE001
+        _tela_erro_conexao()
         st.stop()
-
-    if user is None:
-        _screen_no_access(email)
-    elif needs_password_setup(user):
-        _screen_set_password(user)
+    if usuario is None:
+        _tela_sem_acesso(email)
+    elif not usuario.get("password_hash"):
+        _tela_criar_senha(usuario)
     else:
-        _screen_login(user)
+        _tela_senha(usuario)
     st.stop()
-
-
-def render_sidebar_account() -> None:
-    """Saudação + botão Sair no topo da barra lateral."""
-    user = st.session_state.get("auth_user")
-    if not user:
-        return
-    with st.sidebar:
-        st.markdown(f"Olá, **{user.get('name') or user['email']}**")
-        if st.button("Sair", key="sidebar_logout_btn", width="stretch"):
-            st.session_state["auth_user"] = None
-            st.session_state["auth_email"] = None
-            st.rerun()
-        st.divider()
 
 
 # ----------------------------------------------------------------------------- acesso por painel
@@ -331,7 +278,7 @@ def exigir_acesso_ao_painel(painel: str) -> None:
     chave = f"_acesso_{painel}"
     if st.session_state.get(chave) != email:
         try:
-            with _connect() as conn, conn.cursor() as cur:
+            with _conectar() as conn, conn.cursor() as cur:
                 cur.execute("SELECT 1 FROM acesso.v_permissoes WHERE email = %s AND painel = %s LIMIT 1", (email, painel))
                 pode = cur.fetchone() is not None
         except Exception:  # noqa: BLE001 — sem conseguir conferir, não libera
@@ -343,14 +290,11 @@ def exigir_acesso_ao_painel(painel: str) -> None:
         def form() -> None:
             if pode is None:
                 st.error("Não foi possível conferir o seu acesso agora. Tente de novo em alguns segundos.")
-                if st.button("Tentar novamente", width="stretch"):
+                if st.button("Tentar novamente", type="primary", width="stretch"):
                     st.rerun()
             else:
-                st.warning(f"O usuário **{email}** não tem acesso a este painel. Solicite a inclusão para **{SUPPORT_EMAIL}**.")
-            if st.button("Sair", key="sair_sem_acesso", width="stretch"):
-                st.session_state["auth_user"] = None
-                st.session_state["auth_email"] = None
-                st.rerun()
+                st.warning(f"O usuário **{email}** não tem acesso a este painel. Solicite a inclusão para **{_email_suporte()}**.")
+            _voltar("Sair", key="sair_sem_acesso")
 
-        _login_shell("Sem acesso a este painel", "Seu login está ativo, mas este painel não está liberado para você.", form)
+        _cartao("Sem acesso a este painel", "Seu login está ativo, mas este painel não está liberado para você.", form)
         st.stop()

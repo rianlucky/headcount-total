@@ -90,3 +90,27 @@ Agrupadores públicos oficiais: **Diretoria**, **Área**, **Estado** e **Nível 
 - Padrões de cache, filtros e composição de dashboards da documentação local do Streamlit 1.61.
 - Templates públicos de dashboard do repositório `streamlit/streamlit`.
 - Dashboard de headcount existente em `C:\Dev\Projetos\StreamlitRH\pages` como referência de snapshots mensais e integração SQL.
+
+## Polimento de 29/09/2026 (padrão da Central)
+
+- **Fonte dos dados:** o app passou a ler `core.v_headcount_pessoas` (uma linha por atribuição,
+  migração 018) em vez da tabela agregada `org.headcount_publico` (que continua sendo gravada).
+  Mesma regra de data e mesmo mapeamento dos painéis Turnover, Dados Demográficos e Equidade: a
+  evolução bate com a desses painéis. Nos meses passados, cada pessoa aparece com a diretoria/área/CC
+  da atribuição.
+- **Novidades:** filtro e gráficos por centro de custo; obras com os CCs 49 (SA) e 52 (LTDA) de
+  mesmos 3 últimos dígitos somados; **curva de mobilização** de cada obra (SA e LTDA, mês a mês);
+  **crescimento nos últimos 3 anos** (mesma data de cada ano, pessoas e %); quem mais
+  cresceu/encolheu por área, diretoria ou CC; nível de cargo = nível de gerenciamento do cadastro
+  (variações juntas), em ordem decrescente; sem desligamentos (o painel é mais aberto); mapa com bolhas semitransparentes; **efetivo** nominal em Excel (aba "Filtros" registra
+  os filtros usados).
+- **Visual:** login padrão, barra lateral padrão, cabeçalho com selos de atualização e filtros,
+  cards com o recorte da bandeira, fonte Nunito.
+- **Obras ativas:** agora conta obras (SA + LTDA juntas): 45 em 28/09/2026; antes contava só os CCs
+  49 (42).
+- **Presidência e Conselho:** aparecem separados, como nos demais painéis (antes eram somados).
+- Conferência: `_neon/validacao/validar_paineis.py` (`painel_headcount`, mesmo `metricas.py`): total,
+  diretoria, área, centro de custo, admissões e desligamentos ✅ em 29/09/2026.
+- **Localização:** estado de quem já saiu vem da UF do local (o cadastro deixa vazio) e os locais
+  antigos foram completados com `_neon/etl/completar_locais.py` (IBGE): sem estado em 09/2023 caiu
+  de 455 para 55 pessoas.

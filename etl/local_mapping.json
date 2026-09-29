@@ -2,726 +2,2894 @@
   "ESCRITORIO_BAURU": {
     "cidade": "Bauru",
     "lat": -22.3246,
-    "lon": -49.0871
+    "lon": -49.0871,
+    "uf": "SP"
   },
   "ESCRITORIO_BRASILIA": {
     "cidade": "Brasília",
     "lat": -15.7795,
-    "lon": -47.9297
+    "lon": -47.9297,
+    "uf": "DF"
   },
   "ESCRITORIO_CAMPO_GRANDE": {
     "cidade": "Campo Grande",
     "lat": -20.4486,
-    "lon": -54.6295
+    "lon": -54.6295,
+    "uf": "MS"
   },
   "ESCRITORIO_CUIABA": {
     "cidade": "Cuiabá",
     "lat": -15.601,
-    "lon": -56.0974
+    "lon": -56.0974,
+    "uf": "MT"
   },
   "ESCRITORIO_LONDRINA": {
     "cidade": "Londrina",
     "lat": -23.304,
-    "lon": -51.1691
+    "lon": -51.1691,
+    "uf": "PR"
   },
   "ESCRITORIO_RIBEIRAO_PRETO": {
     "cidade": "Ribeirão Preto",
     "lat": -21.1699,
-    "lon": -47.8099
+    "lon": -47.8099,
+    "uf": "SP"
   },
   "ESCRITORIO_SAO_JOSE_DO_RIO_PRETO": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "ESCRITORIO_SAO_PAULO": {
     "cidade": "São Paulo",
     "lat": -23.5329,
-    "lon": -46.6395
+    "lon": -46.6395,
+    "uf": "SP"
   },
   "ESCRITORIO_UBERLANDIA": {
     "cidade": "Uberlândia",
     "lat": -18.9141,
-    "lon": -48.2749
+    "lon": -48.2749,
+    "uf": "MG"
   },
   "LOC_OBRA_LTDA_CIANORTE_JUVENAL_F1_52463": {
     "cidade": "Cianorte",
     "lat": -23.6599,
-    "lon": -52.6054
+    "lon": -52.6054,
+    "uf": "PR"
   },
   "LOC_OBRA_LTDA_TAUBATE_PORTO_FELIZ_C1_52351": {
     "cidade": "Taubaté",
     "lat": -23.0104,
-    "lon": -45.5593
+    "lon": -45.5593,
+    "uf": "SP"
   },
   "LOC_OBRA_SA_CIANORTE_JUVENAL_F1_49463": {
     "cidade": "Cianorte",
     "lat": -23.6599,
-    "lon": -52.6054
+    "lon": -52.6054,
+    "uf": "PR"
   },
   "LOC_OBRA_SA_TAUBATE_PORTO_FELIZ_C1_49351": {
     "cidade": "Taubaté",
     "lat": -23.0104,
-    "lon": -45.5593
+    "lon": -45.5593,
+    "uf": "SP"
   },
   "LOC_PACAEMBU_SA_47112_DESENVOLVIMENTO_DE_PRODUTOS": {
     "cidade": "São Paulo",
     "lat": -23.5329,
-    "lon": -46.6395
+    "lon": -46.6395,
+    "uf": "SP"
   },
   "LOC_PACAEMBU_SA_47230_GESTAO_CREDITO_COBRANCA": {
     "cidade": "São Paulo",
     "lat": -23.5329,
-    "lon": -46.6395
+    "lon": -46.6395,
+    "uf": "SP"
   },
   "LOC_PACAEMBU_SA_47700_DIRETORIA_DE_NEGOCIOS": {
     "cidade": "São Paulo",
     "lat": -23.5329,
-    "lon": -46.6395
+    "lon": -46.6395,
+    "uf": "SP"
   },
   "LOC_PACAEMBU_SA_I": {
     "cidade": "Bauru",
     "lat": -22.3246,
-    "lon": -49.0871
+    "lon": -49.0871,
+    "uf": "SP"
   },
   "LOC_PACAEMBU_SA_STAFF_ROTATIVO": {
     "cidade": "Bauru",
     "lat": -22.3246,
-    "lon": -49.0871
+    "lon": -49.0871,
+    "uf": "SP"
   },
   "LOC_PACAEMBU_SA_SUPORTE_NOVOS_NEGOCIOS": {
     "cidade": "Bauru",
     "lat": -22.3246,
-    "lon": -49.0871
+    "lon": -49.0871,
+    "uf": "SP"
   },
   "LOC_VIDA_NOVA_BOTUCATU_VERONICA_CESSAO": {
     "cidade": "Botucatu",
     "lat": -22.8837,
-    "lon": -48.4437
+    "lon": -48.4437,
+    "uf": "SP"
   },
   "LOJA_ARACATUBA_JARDIM_VIRGINIA_48591": {
     "cidade": "Araçatuba",
     "lat": -21.2076,
-    "lon": -50.4401
+    "lon": -50.4401,
+    "uf": "SP"
   },
   "LOJA_ARACATUBA_VILA_AERONAUTICA_1_FASE_3_48330": {
     "cidade": "Araçatuba",
     "lat": -21.2076,
-    "lon": -50.4401
+    "lon": -50.4401,
+    "uf": "SP"
   },
   "LOJA_ARAPONGAS_HAROLDO_48455": {
     "cidade": "Arapongas",
     "lat": -23.4153,
-    "lon": -51.4259
+    "lon": -51.4259,
+    "uf": "PR"
   },
   "LOJA_ARARAQUARA_MONTORO_I_48271": {
     "cidade": "Araraquara",
     "lat": -21.7845,
-    "lon": -48.178
+    "lon": -48.178,
+    "uf": "SP"
   },
   "LOJA_ASSIS_BELA_VISTA_3_F1_48445": {
     "cidade": "Assis",
     "lat": -22.66,
-    "lon": -50.4183
+    "lon": -50.4183,
+    "uf": "SP"
   },
   "LOJA_ASSIS_CHATEAUBRIAND_VIZINHO_COMVIVA_48447": {
     "cidade": "Assis Chateaubriand",
     "lat": -24.4168,
-    "lon": -53.5213
+    "lon": -53.5213,
+    "uf": "PR"
   },
   "LOJA_AVARE_SAO_ROGERIO_3_48229": {
     "cidade": "Avaré",
     "lat": -23.1067,
-    "lon": -48.9251
+    "lon": -48.9251,
+    "uf": "SP"
   },
   "LOJA_AVARE_SAO_ROGERIO_4_48249": {
     "cidade": "Avaré",
     "lat": -23.1067,
-    "lon": -48.9251
+    "lon": -48.9251,
+    "uf": "SP"
   },
   "LOJA_BALSAMO_SAO_PEDRO_48469": {
     "cidade": "Bálsamo",
     "lat": -20.7348,
-    "lon": -49.5865
+    "lon": -49.5865,
+    "uf": "SP"
   },
   "LOJA_BAURU_AZEVEDO_F1_48223": {
     "cidade": "Bauru",
     "lat": -22.3246,
-    "lon": -49.0871
+    "lon": -49.0871,
+    "uf": "SP"
   },
   "LOJA_BOTUCATU_VERONICA_2_48301": {
     "cidade": "Botucatu",
     "lat": -22.8837,
-    "lon": -48.4437
+    "lon": -48.4437,
+    "uf": "SP"
   },
   "LOJA_BRASILIA_RESIDENCIAL_PARQUE_48500": {
     "cidade": "Brasília",
     "lat": -15.7795,
-    "lon": -47.9297
+    "lon": -47.9297,
+    "uf": "DF"
   },
   "LOJA_CAMPO_MOURAO_JOAO_BATISTA_F2_48596": {
     "cidade": "Campo Mourão",
     "lat": -24.0463,
-    "lon": -52.378
+    "lon": -52.378,
+    "uf": "PR"
   },
   "LOJA_CATANDUVA_JARDIM_TOSCANA_48348": {
     "cidade": "Catanduva",
     "lat": -21.1314,
-    "lon": -48.977
+    "lon": -48.977,
+    "uf": "SP"
   },
   "LOJA_CIANORTE_JUVENAL_1_F2_48470": {
     "cidade": "Cianorte",
     "lat": -23.6599,
-    "lon": -52.6054
+    "lon": -52.6054,
+    "uf": "PR"
   },
   "LOJA_CIANORTE_JUVENAL_48463": {
     "cidade": "Cianorte",
     "lat": -23.6599,
-    "lon": -52.6054
+    "lon": -52.6054,
+    "uf": "PR"
   },
   "LOJA_CUIABA_IMIGRANTES_F1_ 48483": {
     "cidade": "Cuiabá",
     "lat": -15.601,
-    "lon": -56.0974
+    "lon": -56.0974,
+    "uf": "MT"
   },
   "LOJA_CUIABA_LATORRACA_3_48363": {
     "cidade": "Cuiabá",
     "lat": -15.601,
-    "lon": -56.0974
+    "lon": -56.0974,
+    "uf": "MT"
   },
   "LOJA_DIAMANTINO_JBS_48615": {
     "cidade": "Diamantino",
     "lat": -14.4037,
-    "lon": -56.4366
+    "lon": -56.4366,
+    "uf": "MT"
   },
   "LOJA_ITAPETININGA_COPACABANA_48443": {
     "cidade": "Itapetininga",
     "lat": -23.5886,
-    "lon": -48.0483
+    "lon": -48.0483,
+    "uf": "SP"
   },
   "LOJA_ITAPETININGA_LERA_48446": {
     "cidade": "Itapetininga",
     "lat": -23.5886,
-    "lon": -48.0483
+    "lon": -48.0483,
+    "uf": "SP"
   },
   "LOJA_LEME_FLORA_ I _48385": {
     "cidade": "Leme",
     "lat": -22.1809,
-    "lon": -47.3841
+    "lon": -47.3841,
+    "uf": "SP"
   },
   "LOJA_LINS_LINS_4_FASE_2_48417": {
     "cidade": "Lins",
     "lat": -21.6718,
-    "lon": -49.7526
+    "lon": -49.7526,
+    "uf": "SP"
   },
   "LOJA_LINS_SAMUEL_ARZANI_48389": {
     "cidade": "Lins",
     "lat": -21.6718,
-    "lon": -49.7526
+    "lon": -49.7526,
+    "uf": "SP"
   },
   "LOJA_LONDRINA_TERRA _NOVA_3_48323": {
     "cidade": "Londrina",
     "lat": -23.304,
-    "lon": -51.1691
+    "lon": -51.1691,
+    "uf": "PR"
   },
   "LOJA_LUCAS_RIO_VERDE_PREFEITURA_F1_48452": {
     "cidade": "Lucas do Rio Verde",
     "lat": -13.0588,
-    "lon": -55.9042
+    "lon": -55.9042,
+    "uf": "MT"
   },
   "LOJA_LUCAS_RIO_VERDE_PREFEITURA_F2_48453": {
     "cidade": "Lucas do Rio Verde",
     "lat": -13.0588,
-    "lon": -55.9042
+    "lon": -55.9042,
+    "uf": "MT"
   },
   "LOJA_MARILIA_FAZENDA_ARARAQUARA_F2_48421": {
     "cidade": "Marília",
     "lat": -22.2171,
-    "lon": -49.9501
+    "lon": -49.9501,
+    "uf": "SP"
   },
   "LOJA_NOVA_MARILANDIA_48609": {
     "cidade": "Nova Marilândia",
     "lat": -14.3568,
-    "lon": -56.9696
+    "lon": -56.9696,
+    "uf": "MT"
   },
   "LOJA_PALOTINA_SAIDA_FA_F1_48384": {
     "cidade": "Palotina",
     "lat": -24.2868,
-    "lon": -53.8404
+    "lon": -53.8404,
+    "uf": "PR"
   },
   "LOJA_PARANAVAI_AV_DO_CAFE_48489": {
     "cidade": "Paranavaí",
     "lat": -23.0816,
-    "lon": -52.4617
+    "lon": -52.4617,
+    "uf": "PR"
   },
   "LOJA_PIRATININGA_RESIDENCIAL_VERISSIMO_FASE_2_48466": {
     "cidade": "Piratininga",
     "lat": -22.4142,
-    "lon": -49.1339
+    "lon": -49.1339,
+    "uf": "SP"
   },
   "LOJA_PRESIDENTE_PRUDENTE _ALTO_ALEGRE_48383": {
     "cidade": "Presidente Prudente",
     "lat": -22.1207,
-    "lon": -51.3925
+    "lon": -51.3925,
+    "uf": "SP"
   },
   "LOJA_PRESIDENTE_PRUDENTE _SANTA_JOANA_48444": {
     "cidade": "Presidente Prudente",
     "lat": -22.1207,
-    "lon": -51.3925
+    "lon": -51.3925,
+    "uf": "SP"
   },
   "LOJA_PRIMAVERA_DO_LESTE_EDUARDO_ZALESKI_2_FASE_1_48397": {
     "cidade": "Primavera do Leste",
     "lat": -15.544,
-    "lon": -54.2811
+    "lon": -54.2811,
+    "uf": "MT"
   },
   "LOJA_PRIMAVERA_DO_LESTE_EDUARDO_ZALESKI_48394": {
     "cidade": "Primavera do Leste",
     "lat": -15.544,
-    "lon": -54.2811
+    "lon": -54.2811,
+    "uf": "MT"
   },
   "LOJA_PRIMAVERA_DO_LESTE_EDUARDO_ZALESKI_48420": {
     "cidade": "Primavera do Leste",
     "lat": -15.544,
-    "lon": -54.2811
+    "lon": -54.2811,
+    "uf": "MT"
   },
   "LOJA_RIBEIRAO_PRETO_SCODRO_1_48272": {
     "cidade": "Ribeirão Preto",
     "lat": -21.1699,
-    "lon": -47.8099
+    "lon": -47.8099,
+    "uf": "SP"
   },
   "LOJA_RIBEIRAO_PRETO_WILDA _FACCI_C1_48386": {
     "cidade": "Ribeirão Preto",
     "lat": -21.1699,
-    "lon": -47.8099
+    "lon": -47.8099,
+    "uf": "SP"
   },
   "LOJA_RIO_PRETO_OLINDA_SALA_1_FASE_2_48429": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "LOJA_RIO_PRETO_OLINDA_SALA_F1_48405": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "LOJA_RIO_PRETO_WAYFRO_F1_48185": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "LOJA_SAO_CARLOS_SAMAMBAIA_F1_48277": {
     "cidade": "São Carlos",
     "lat": -22.0174,
-    "lon": -47.886
+    "lon": -47.886,
+    "uf": "SP"
   },
   "LOJA_SA_CAMPO_GRANDE_JD_AGUA_BRANCA_F1_48593": {
     "cidade": "Campo Grande",
     "lat": -20.4486,
-    "lon": -54.6295
+    "lon": -54.6295,
+    "uf": "MS"
   },
   "LOJA_SA_RONDONOPOLIS_SANTO_EXPEDITO_F1_48306": {
     "cidade": "Rondonópolis",
     "lat": -16.4673,
-    "lon": -54.6372
+    "lon": -54.6372,
+    "uf": "MT"
   },
   "LOJA_SINOP_RHOVID_F1_48423": {
     "cidade": "Sinop",
     "lat": -11.8604,
-    "lon": -55.5091
+    "lon": -55.5091,
+    "uf": "MT"
   },
   "LOJA_SINOP_RHOVID_FASE_2_48449": {
     "cidade": "Sinop",
     "lat": -11.8604,
-    "lon": -55.5091
+    "lon": -55.5091,
+    "uf": "MT"
   },
   "LOJA_SORRISO_SANTO_ANGELO_VIGOLO_F1_48492": {
     "cidade": "Sorriso",
     "lat": -12.5425,
-    "lon": -55.7211
+    "lon": -55.7211,
+    "uf": "MT"
   },
   "LOJA_TATUI_LAGOA_VERMELHA_48367": {
     "cidade": "Tatuí",
     "lat": -23.3487,
-    "lon": -47.8461
+    "lon": -47.8461,
+    "uf": "SP"
   },
   "LOJA_TATUI_LAGOA_VERMELHA_F2_48378": {
     "cidade": "Tatuí",
     "lat": -23.3487,
-    "lon": -47.8461
+    "lon": -47.8461,
+    "uf": "SP"
   },
   "LOJA_TAUBATE_TAUBATE_PORTO_FELIZ_48350": {
     "cidade": "Taubaté",
     "lat": -23.0104,
-    "lon": -45.5593
+    "lon": -45.5593,
+    "uf": "SP"
   },
   "LOJA_VOTUPORANGA_GIBIM_48465": {
     "cidade": "Votuporanga",
     "lat": -20.4237,
-    "lon": -49.9781
+    "lon": -49.9781,
+    "uf": "SP"
   },
   "OBRA_LTDA_ ARACATUBA_VILA_AERONAUTICA_I_F3_52330": {
     "cidade": "Araçatuba",
     "lat": -21.2076,
-    "lon": -50.4401
+    "lon": -50.4401,
+    "uf": "SP"
   },
   "OBRA_LTDA_ ARAPONGAS_CAMPAGNOLE_52563": {
     "cidade": "Arapongas",
     "lat": -23.4153,
-    "lon": -51.4259
+    "lon": -51.4259,
+    "uf": "PR"
   },
   "OBRA_LTDA_ ASSIS_CHATEAUBRIAND_VIZINHO_COMVIVA _52447": {
     "cidade": "Assis Chateaubriand",
     "lat": -24.4168,
-    "lon": -53.5213
+    "lon": -53.5213,
+    "uf": "PR"
   },
   "OBRA_LTDA_ AVARE_SAO_ROGERIO_III_52229": {
     "cidade": "Avaré",
     "lat": -23.1067,
-    "lon": -48.9251
+    "lon": -48.9251,
+    "uf": "SP"
   },
   "OBRA_LTDA_ MARILIA_FAZENDA_ARARAQUARA _F1_52222": {
     "cidade": "Marília",
     "lat": -22.2171,
-    "lon": -49.9501
+    "lon": -49.9501,
+    "uf": "SP"
   },
   "OBRA_LTDA_ MARILIA_FAZENDA_ARARAQUARA _F2_52421": {
     "cidade": "Marília",
     "lat": -22.2171,
-    "lon": -49.9501
+    "lon": -49.9501,
+    "uf": "SP"
   },
   "OBRA_LTDA_ SINOP_RESIDENCIAL_TIVOLI_52568": {
     "cidade": "Sinop",
     "lat": -11.8604,
-    "lon": -55.5091
+    "lon": -55.5091,
+    "uf": "MT"
   },
   "OBRA_LTDA_ SORRISO_SANTO_ANGELO": {
     "cidade": "Sorriso",
     "lat": -12.5425,
-    "lon": -55.7211
+    "lon": -55.7211,
+    "uf": "MT"
   },
   "OBRA_LTDA_ TATUI_LAGOA_VERMELHA_1_F1_52367": {
     "cidade": "Tatuí",
     "lat": -23.3487,
-    "lon": -47.8461
+    "lon": -47.8461,
+    "uf": "SP"
   },
   "OBRA_LTDA_ARAPONGAS_OURO_VERDE_52455": {
     "cidade": "Arapongas",
     "lat": -23.4153,
-    "lon": -51.4259
+    "lon": -51.4259,
+    "uf": "PR"
   },
   "OBRA_LTDA_ARARAQUARA_MONTORO _I_52271": {
     "cidade": "Araraquara",
     "lat": -21.7845,
-    "lon": -48.178
+    "lon": -48.178,
+    "uf": "SP"
   },
   "OBRA_LTDA_ASSIS_BELA_VISTA_III": {
     "cidade": "Assis",
     "lat": -22.66,
-    "lon": -50.4183
+    "lon": -50.4183,
+    "uf": "SP"
   },
   "OBRA_LTDA_AVARE_SAO_ROGERIO_IV_52249": {
     "cidade": "Avaré",
     "lat": -23.1067,
-    "lon": -48.9251
+    "lon": -48.9251,
+    "uf": "SP"
   },
   "OBRA_LTDA_BADY_BASSITT_TERRAS_DE_BADY_MOD_1_52586": {
     "cidade": "Bady Bassitt",
     "lat": -20.9197,
-    "lon": -49.4385
+    "lon": -49.4385,
+    "uf": "SP"
   },
   "OBRA_LTDA_BOTUCATU_VERONICA_F2_52301": {
     "cidade": "Botucatu",
     "lat": -22.8837,
-    "lon": -48.4437
+    "lon": -48.4437,
+    "uf": "SP"
   },
   "OBRA_LTDA_CAMPO_MOURAO_JOAO_BATISTA_F2_52596": {
     "cidade": "Campo Mourão",
     "lat": -24.0463,
-    "lon": -52.378
+    "lon": -52.378,
+    "uf": "PR"
   },
   "OBRA_LTDA_CATANDUVA_JARDIM_TOSCANA_52348": {
     "cidade": "Catanduva",
     "lat": -21.1314,
-    "lon": -48.977
+    "lon": -48.977,
+    "uf": "SP"
   },
   "OBRA_LTDA_CIANORTE_RESIDENCIAL_PLANALTO_52470": {
     "cidade": "Cianorte",
     "lat": -23.6599,
-    "lon": -52.6054
+    "lon": -52.6054,
+    "uf": "PR"
   },
   "OBRA_LTDA_CUIABA_LATORRACA_3_52363": {
     "cidade": "Cuiabá",
     "lat": -15.601,
-    "lon": -56.0974
+    "lon": -56.0974,
+    "uf": "MT"
   },
   "OBRA_LTDA_ITAPETININGA_LERA_52446": {
     "cidade": "Itapetininga",
     "lat": -23.5886,
-    "lon": -48.0483
+    "lon": -48.0483,
+    "uf": "SP"
   },
   "OBRA_LTDA_LEME_FLORA _I_52385": {
     "cidade": "Leme",
     "lat": -22.1809,
-    "lon": -47.3841
+    "lon": -47.3841,
+    "uf": "SP"
   },
   "OBRA_LTDA_LINS_IV_FASE_2_52417": {
     "cidade": "Lins",
     "lat": -21.6718,
-    "lon": -49.7526
+    "lon": -49.7526,
+    "uf": "SP"
   },
   "OBRA_LTDA_LUCAS_RIO_VERDE_RES_JARDIM_ESPERANÇA": {
     "cidade": "Lucas do Rio Verde",
     "lat": -13.0588,
-    "lon": -55.9042
+    "lon": -55.9042,
+    "uf": "MT"
   },
   "OBRA_LTDA_NOVA_MARILANDIA_VIDA_NOVA_MARILANDIA_52609": {
     "cidade": "Nova Marilândia",
     "lat": -14.3568,
-    "lon": -56.9696
+    "lon": -56.9696,
+    "uf": "MT"
   },
   "OBRA_LTDA_PACAEMBU_SAO_CARLOS_52277": {
     "cidade": "São Carlos",
     "lat": -22.0174,
-    "lon": -47.886
+    "lon": -47.886,
+    "uf": "SP"
   },
   "OBRA_LTDA_PIRATININGA_RESIDENCIAL_VALE_VERDE_F2_52466": {
     "cidade": "Piratininga",
     "lat": -22.4142,
-    "lon": -49.1339
+    "lon": -49.1339,
+    "uf": "SP"
   },
   "OBRA_LTDA_PRESIDENTE_PRUDENTE_ALTO_ALEGRE_52383": {
     "cidade": "Presidente Prudente",
     "lat": -22.1207,
-    "lon": -51.3925
+    "lon": -51.3925,
+    "uf": "SP"
   },
   "OBRA_LTDA_PRIMAVERA_DO_LESTE_JD_IPES_III_E_IV": {
     "cidade": "Primavera do Leste",
     "lat": -15.544,
-    "lon": -54.2811
+    "lon": -54.2811,
+    "uf": "MT"
   },
   "OBRA_LTDA_RIBEIRAO_PRETO_WILDA_FACCI_C1/C2/C3": {
     "cidade": "Ribeirão Preto",
     "lat": -21.1699,
-    "lon": -47.8099
+    "lon": -47.8099,
+    "uf": "SP"
   },
   "OBRA_LTDA_RIO_PRETO_CLARISSE_NOVELLI_PASSOS_F1_52185": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_LTDA_RIO_PRETO_OLINDA_SALA_F1_52405": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_LTDA_RIO_PRETO_OLINDA_SALA_F2_52429": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_LTDA_SINOP_RODHIVI _MORADA_BOSQUE_52449": {
     "cidade": "Sinop",
     "lat": -11.8604,
-    "lon": -55.5091
+    "lon": -55.5091,
+    "uf": "MT"
   },
   "OBRA_LTDA_UBERLANDIA_RESIDENCIAL_PACAEMBU_52326": {
     "cidade": "Uberlândia",
     "lat": -18.9141,
-    "lon": -48.2749
+    "lon": -48.2749,
+    "uf": "MG"
   },
   "OBRA_LTDA_VOTUPORANGA_GIBIM_52465": {
     "cidade": "Votuporanga",
     "lat": -20.4237,
-    "lon": -49.9781
+    "lon": -49.9781,
+    "uf": "SP"
   },
   "OBRA_PACAEMBU_SA_LINS_IV_FASE_2_49417": {
     "cidade": "Lins",
     "lat": -21.6718,
-    "lon": -49.7526
+    "lon": -49.7526,
+    "uf": "SP"
   },
   "OBRA_SA_ ARACATUBA_VILA_AERONAUTICA_I_F3_49330": {
     "cidade": "Araçatuba",
     "lat": -21.2076,
-    "lon": -50.4401
+    "lon": -50.4401,
+    "uf": "SP"
   },
   "OBRA_SA_ ARAPONGAS_CAMPAGNOLE_49563": {
     "cidade": "Arapongas",
     "lat": -23.4153,
-    "lon": -51.4259
+    "lon": -51.4259,
+    "uf": "PR"
   },
   "OBRA_SA_ AVARE_SAO_ROGERIO_III_49229": {
     "cidade": "Avaré",
     "lat": -23.1067,
-    "lon": -48.9251
+    "lon": -48.9251,
+    "uf": "SP"
   },
   "OBRA_SA_ MARILIA_FAZENDA_ARARAQUARA _F2_49421": {
     "cidade": "Marília",
     "lat": -22.2171,
-    "lon": -49.9501
+    "lon": -49.9501,
+    "uf": "SP"
   },
   "OBRA_SA_ SINOP_RESIDENCIAL_TIVOLI_49568": {
     "cidade": "Sinop",
     "lat": -11.8604,
-    "lon": -55.5091
+    "lon": -55.5091,
+    "uf": "MT"
   },
   "OBRA_SA_ SORRISO_SANTO_ANGELO": {
     "cidade": "Sorriso",
     "lat": -12.5425,
-    "lon": -55.7211
+    "lon": -55.7211,
+    "uf": "MT"
   },
   "OBRA_SA_ARACATUBA_JARDIM_VIRGINIA_49591": {
     "cidade": "Araçatuba",
     "lat": -21.2076,
-    "lon": -50.4401
+    "lon": -50.4401,
+    "uf": "SP"
   },
   "OBRA_SA_ARAPONGAS_OURO_VERDE_49455": {
     "cidade": "Arapongas",
     "lat": -23.4153,
-    "lon": -51.4259
+    "lon": -51.4259,
+    "uf": "PR"
   },
   "OBRA_SA_ASSIS_BELA_VISTA_III": {
     "cidade": "Assis",
     "lat": -22.66,
-    "lon": -50.4183
+    "lon": -50.4183,
+    "uf": "SP"
   },
   "OBRA_SA_AVARE_SAO_ROGERIO_IV_49249": {
     "cidade": "Avaré",
     "lat": -23.1067,
-    "lon": -48.9251
+    "lon": -48.9251,
+    "uf": "SP"
   },
   "OBRA_SA_BADY_BASSITT_TERRAS_DE_BADY_MOD_1_49586": {
     "cidade": "Bady Bassitt",
     "lat": -20.9197,
-    "lon": -49.4385
+    "lon": -49.4385,
+    "uf": "SP"
   },
   "OBRA_SA_BOTUCATU_VERONICA_F2_49301": {
     "cidade": "Botucatu",
     "lat": -22.8837,
-    "lon": -48.4437
+    "lon": -48.4437,
+    "uf": "SP"
   },
   "OBRA_SA_CAMPO_MOURAO_JOAO_BATISTA_F2_49596": {
     "cidade": "Campo Mourão",
     "lat": -24.0463,
-    "lon": -52.378
+    "lon": -52.378,
+    "uf": "PR"
   },
   "OBRA_SA_CATANDUVA_JARDIM_TOSCANA_49348": {
     "cidade": "Catanduva",
     "lat": -21.1314,
-    "lon": -48.977
+    "lon": -48.977,
+    "uf": "SP"
   },
   "OBRA_SA_CIANORTE_RESIDENCIAL_PLANALTO_49470": {
     "cidade": "Cianorte",
     "lat": -23.6599,
-    "lon": -52.6054
+    "lon": -52.6054,
+    "uf": "PR"
   },
   "OBRA_SA_CONDOMINIO_1_DOS_LIRIOS_49437": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_SA_CUIABA_LATORRACA_3_49363": {
     "cidade": "Cuiabá",
     "lat": -15.601,
-    "lon": -56.0974
+    "lon": -56.0974,
+    "uf": "MT"
   },
   "OBRA_SA_DIAMANTINO_JBS_49615": {
     "cidade": "Diamantino",
     "lat": -14.4037,
-    "lon": -56.4366
+    "lon": -56.4366,
+    "uf": "MT"
   },
   "OBRA_SA_ITAPETININGA_LERA_49446": {
     "cidade": "Itapetininga",
     "lat": -23.5886,
-    "lon": -48.0483
+    "lon": -48.0483,
+    "uf": "SP"
   },
   "OBRA_SA_LEME_FLORA _I_49385": {
     "cidade": "Leme",
     "lat": -22.1809,
-    "lon": -47.3841
+    "lon": -47.3841,
+    "uf": "SP"
   },
   "OBRA_SA_LUCAS_RIO_VERDE_RES_JARDIM_ESPERANCA": {
     "cidade": "Lucas do Rio Verde",
     "lat": -13.0588,
-    "lon": -55.9042
+    "lon": -55.9042,
+    "uf": "MT"
   },
   "OBRA_SA_NOVA_MARILANDIA_VIDA_NOVA_MARILANDIA_49609": {
     "cidade": "Nova Marilândia",
     "lat": -14.3568,
-    "lon": -56.9696
+    "lon": -56.9696,
+    "uf": "MT"
   },
   "OBRA_SA_PACAEMBU_SAO_CARLOS_49277": {
     "cidade": "São Carlos",
     "lat": -22.0174,
-    "lon": -47.886
+    "lon": -47.886,
+    "uf": "SP"
   },
   "OBRA_SA_PIRATININGA_RESIDENCIAL_VALE_VERDE_F2_49466": {
     "cidade": "Piratininga",
     "lat": -22.4142,
-    "lon": -49.1339
+    "lon": -49.1339,
+    "uf": "SP"
   },
   "OBRA_SA_PRESIDENTE_PRUDENTE_ALTO_ALEGRE_49383": {
     "cidade": "Presidente Prudente",
     "lat": -22.1207,
-    "lon": -51.3925
+    "lon": -51.3925,
+    "uf": "SP"
   },
   "OBRA_SA_PRIMAVERA_DO_LESTE_AV_EDUARDO_ZALESKI": {
     "cidade": "Primavera do Leste",
     "lat": -15.544,
-    "lon": -54.2811
+    "lon": -54.2811,
+    "uf": "MT"
   },
   "OBRA_SA_PRIMAVERA_DO_LESTE_JD_IPES_III_E_IV": {
     "cidade": "Primavera do Leste",
     "lat": -15.544,
-    "lon": -54.2811
+    "lon": -54.2811,
+    "uf": "MT"
   },
   "OBRA_SA_RIBEIRAO_PRETO_WILDA_FACCI_C1/C2/C3": {
     "cidade": "Ribeirão Preto",
     "lat": -21.1699,
-    "lon": -47.8099
+    "lon": -47.8099,
+    "uf": "SP"
   },
   "OBRA_SA_RIO_PRETO_CLARISSE_NOVELLI_PASSOS_F1_49185": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_SA_RIO_PRETO_OLINDA_SALA_F1_49405": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_SA_RIO_PRETO_OLINDA_SALA_F2_49429": {
     "cidade": "São José do Rio Preto",
     "lat": -20.8113,
-    "lon": -49.3758
+    "lon": -49.3758,
+    "uf": "SP"
   },
   "OBRA_SA_SINOP_RODHIVI _MORADA_BOSQUE_49449": {
     "cidade": "Sinop",
     "lat": -11.8604,
-    "lon": -55.5091
+    "lon": -55.5091,
+    "uf": "MT"
   },
   "OBRA_SA_TATUI_LAGOA_VERMELHA_1_F1_49367": {
     "cidade": "Tatuí",
     "lat": -23.3487,
-    "lon": -47.8461
+    "lon": -47.8461,
+    "uf": "SP"
   },
   "OBRA_SA_UBERLANDIA_RESIDENCIAL_PACAEMBU_49326": {
     "cidade": "Uberlândia",
     "lat": -18.9141,
-    "lon": -48.2749
+    "lon": -48.2749,
+    "uf": "MG"
   },
   "OBRA_SA_VOTUPORANGA_GIBIM_49465": {
     "cidade": "Votuporanga",
     "lat": -20.4237,
-    "lon": -49.9781
+    "lon": -49.9781,
+    "uf": "SP"
   },
   "OBRA_LTDA_ARACATUBA_JARDIM_VIRGINIA_52591": {
     "cidade": "Araçatuba",
     "lat": -21.2076,
-    "lon": -50.4401
+    "lon": -50.4401,
+    "uf": "SP"
   },
   "OBRA_SA_RONDONOPOLIS_SANTO_EXPEDITO_F1_49306": {
     "cidade": "Rondonópolis",
     "lat": -16.4673,
-    "lon": -54.6372
+    "lon": -54.6372,
+    "uf": "MT"
+  },
+  "LOC_CAPEX_SISTEMAS_DE_TECNOLOGIA_47276": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_DESENVOLV_IMOBILIARIO_BAURU": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_DESENVOLV_IMOBILIARIO_SP": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_DIREITO_CIVIL_E_TRABALHISTA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_DIREITO_IMOBILIARIO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_FACILITIES": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_FINANCEIRO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_GERENCIA_ADM_OBRAS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_MONITORAMENTO_E_CONTROLE": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_PLANEJAMENTO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_RECURSOS_HUMANOS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_STAFF_DIRETORIA_DE_OBRAS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_STAFF_PRESIDENCIA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_SUPRIMENTOS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_HAUS_CONSTRUTORA_LTDA_TI": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_OBRA_LTDA_ MARILIA_GIGANTAO_COMPLEMENTO_52448": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_OBRA_SA_ MARILIA_GIGANTAO_COMPLEMENTO__49448": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_GENTE_CULTURA_47055": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_ITAPETININGA_CRISTOVAO_COLOMBO_EMPREEND_IMOB": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_MARILIA_GIGANTAO_EMPREEND_IMOB_LTDA": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_47020_AUDI_E_CONTROLES_INTER": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47059_DIRETORIA_DESENVOLVIMENTO_ORGANIZACION": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47101_PROC_E_PLAN_NEGOCIOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47111_DESENVOLVIMENTO_DE_PRODUTOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47121_UN_DE_NEG_SAO_PAULO_1": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47123_UN_DE_NEG_SAO_PAULO_3": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47125_UN_DE_NEG_SAO_PAULO_5": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47202_RELACAO_COM_INVESTIDOR": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47231_GERENCIA_DE_CREDITO_E_COBR": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47271_CAPEX_TECNOLOGIA_INFORMACAO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_47373_COMERCIAL_VENDAS_GOIAS": {
+    "cidade": "Goiás",
+    "lat": -15.9333,
+    "lon": -50.14,
+    "uf": "GO",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_47720_UNID_DE_NEG_PARANA_7": {
+    "cidade": "Londrina",
+    "lat": -23.304,
+    "lon": -51.1691,
+    "uf": "PR",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_48152_VENDAS_CATANDUVA_III": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48203_PIRACICABA_NOVA_SUICA_EQ": {
+    "cidade": "Piracicaba",
+    "lat": -22.7338,
+    "lon": -47.6476,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48204_PIRACICABA_NOVA_SUICA": {
+    "cidade": "Piracicaba",
+    "lat": -22.7338,
+    "lon": -47.6476,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48211_PIRACICABA_COMVIVA_EQUIP": {
+    "cidade": "Piracicaba",
+    "lat": -22.7338,
+    "lon": -47.6476,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48216_VENDAS_SALTO_DE_PIRAPORA": {
+    "cidade": "Salto de Pirapora",
+    "lat": -23.6474,
+    "lon": -47.5743,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48218_RIO_PRETO_JOSE_BERNARDO_CO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48228_VENDAS_OURINHOS_FASE1": {
+    "cidade": "Ourinhos",
+    "lat": -22.9797,
+    "lon": -49.8697,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48248_OURINHOS_CONSTANTE_FASE_2": {
+    "cidade": "Ourinhos",
+    "lat": -22.9797,
+    "lon": -49.8697,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48286_VENDAS_TRINDADE": {
+    "cidade": "Trindade",
+    "lat": -16.6517,
+    "lon": -49.4927,
+    "uf": "GO",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48290_VENDAS_RESERVA_RIO_PRETO": {
+    "cidade": "Reserva",
+    "lat": -24.6492,
+    "lon": -50.8466,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48292_VENDAS_P_GROSSA_F1": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48296_TATUI_CAGUASSU_F1_EQUIPE": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48299_VENDAS_SALTO_DE_PIRAPORA_F": {
+    "cidade": "Salto de Pirapora",
+    "lat": -23.6474,
+    "lon": -47.5743,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48300_BOTUCATU_VERONICA_1_EQUI": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48303_VENDAS_ARAPONGAS_FASE_1": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48304_VENDAS_ARAPONGAS_F2": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48307_ARACATUBA_VILA_AERONAUTICA": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48308_VENDAS_P_GROSSA_F2": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48310_VENDAS_ITAPETININGA_CRISTOV": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48313_VENDAS_RIO_PRETO_PAPA": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48319_VENDAS_PINDAMONHANGABA": {
+    "cidade": "Pindamonhangaba",
+    "lat": -22.9246,
+    "lon": -45.4613,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48328_MARILIA_GIGANTAO_EQUIPE": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48331_BAURU_AZEVEDO_F2_EQUIPE": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48332_VENDAS_CATANDUVA_III_F2": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48340_CUIABA_COPAGAZ_12_E_3": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48342_CUIABA_COPAGAZ_EQUIPE_DE": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48347_VENDAS_PONTA_GROSSA_3": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48349_CIANORTE_LAGUILO_EQUIPE": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48357_ASSIS_CHATEAUBRIAND_UNIFIC": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48358_ASSIS_CHATEAUBRIAND_UNIFICA": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48370_ASSIS_BELA_VISTA_1_EQUIP": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48371_ASSIS_BELA_VISTA_2_EQUIPE": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48375_BARRETOS_ANASTACIO_4_EQU": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48379_MARILIA_ALTOS_DO_PALMITAL": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_48468_PONTA_GROSSA_JD_ROYAL_3_F3_EQUIPE": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_49286_VIDA_NOVA_TRINDADE": {
+    "cidade": "Trindade",
+    "lat": -16.6517,
+    "lon": -49.4927,
+    "uf": "GO",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_COMERCIAL": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_COMERCIAL_ESTRATEGICO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_CONTROLE_DE_CUSTOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_DESENVOLVIMENTO_ORGANIZACIONAL": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_DESENVOLV_IMOBILIARIO_SP": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_DIRETORIA_DE_OBRAS": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_DIRETORIA_DE_PLANEJAMENTO_E_PROJET": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_DIRETORIA_FINANCEIRA": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_ENGENHARIA_AMBIENTAL_BAURU": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_GERENCIA_ADM_OBRAS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_GERENCIA_DE_ASSISTENCIA_TECNICA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_GERENCIA_TECNICA_DE_DESENVOLVIMENT": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_JURIDICO_CORPORATIVO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_ORCAMENTO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_PLANEJAMENTO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_PLANEJAMENTO_ESTRATEGICO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_PROCESSOS_CAIXA": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_PROJETOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_RELACIONAMENTO_CAIXA": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_RELACIONAMENTO_COM_CLIENTES": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_STAFF_PRESIDENCIA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_SUPRIMENTOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_SUPRIMENTOS_1_DESATIVADO": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_TI": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_VICE_PRESIDENCIA_DE_NEGOCIOS": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_SA_VIDA_NOVA_BARRETOS_3": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_VIDA_NOVA_ITAPETININGA_2": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_VIDA_NOVA_PRESIDENTE_PRUDENTE_I": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_VIDA_NOVA_RIO_PRETO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_VIDA_NOVA_SAO_CARLOS": {
+    "cidade": "São Carlos",
+    "lat": -22.0174,
+    "lon": -47.886,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SA_VIDA_NOVA_TRINDADE_CESSAO": {
+    "cidade": "Trindade",
+    "lat": -16.6517,
+    "lon": -49.4927,
+    "uf": "GO",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PACAEMBU_SISTEMAS_DE_TECNOLOGIA_47273": {
+    "cidade": "São Paulo",
+    "lat": -23.5329,
+    "lon": -46.6395,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_PACAEMBU_VIDA_NOVA_CUIABA_COPAGAZ_3_CESSAO": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PIRACICABA_COMVIVA": {
+    "cidade": "Piracicaba",
+    "lat": -22.7338,
+    "lon": -47.6476,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PIRACICABA_COMVIVA_F2": {
+    "cidade": "Piracicaba",
+    "lat": -22.7338,
+    "lon": -47.6476,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_PIRACICABA_COMVIVA_F2_CESSAO": {
+    "cidade": "Piracicaba",
+    "lat": -22.7338,
+    "lon": -47.6476,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_CAIMA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_JARDIM_DAS_OLIVEIRAS": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_JARDIM_DO_BOSQUE_I": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_JARDIM_DO_BOSQUE_II": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_JARDIM_ITALIA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_MARIO_EMILIO_BANNWART": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_NOVA_CATANDUVA_I": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_SANTO_EXPEDITO": {
+    "cidade": "Santo Expedito",
+    "lat": -21.8467,
+    "lon": -51.3929,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_SAO_ROGERIO_II": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "centro de custo"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_ASSIS": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_ASSIS_II": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_BARRETOS": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_BARRETOS_5": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_BARRETOS_II": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_CATANDUVA_I": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_CATANDUVA_II": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_3": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_I": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_II": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_IV": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_V": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_VI": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_FRANCA_VII": {
+    "cidade": "Franca",
+    "lat": -20.5352,
+    "lon": -47.4039,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_ITAPETININGA": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_LINS": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_LINS_II": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_MARACA": {
+    "cidade": "Maracaí",
+    "lat": -22.6149,
+    "lon": -50.6713,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_MARACA_3": {
+    "cidade": "Maracaí",
+    "lat": -22.6149,
+    "lon": -50.6713,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_MARACA_II": {
+    "cidade": "Maracaí",
+    "lat": -22.6149,
+    "lon": -50.6713,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_MONTE_ALTO": {
+    "cidade": "Monte Alto",
+    "lat": -21.2655,
+    "lon": -48.4971,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_OLIMPIA": {
+    "cidade": "Nova Olímpia",
+    "lat": -14.7889,
+    "lon": -57.2886,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_OLIMPIA_2": {
+    "cidade": "Nova Olímpia",
+    "lat": -14.7889,
+    "lon": -57.2886,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_PRESIDENTE_PRUDENTE_II": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_RIB_A": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_RIB_ADM_GERAL": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_RIB_B1": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_RIB_B2": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_RIB_EP": {
+    "cidade": "Ribeirão Preto",
+    "lat": -21.1699,
+    "lon": -47.8099,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_SOROCABA": {
+    "cidade": "Sorocaba",
+    "lat": -23.4969,
+    "lon": -47.4451,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_TATUI": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_TATUI_II": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_VOTUPORANGA": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_VOTUPORANGA_3": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_VOTUPORANGA_II": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_RESIDENCIAL_VIDA_NOVA_VOTUPORANGA_IV": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARACATUBA_VILA_AERONAUTICA_F1": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARACATUBA_VILA_AERONAUTICA_F1_CESSAO": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARACATUBA_VILA_AERONAUTICA_F2": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARACATUBA_VILA_AERONAUTICA_F2_CESSAO": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARAPONGAS_FASE_1": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARAPONGAS_FASE_1_CESSAO": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARAPONGAS_FASE_2": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARAPONGAS_FASE_2_CESSAO": {
+    "cidade": "Arapongas",
+    "lat": -23.4153,
+    "lon": -51.4259,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARARAS_VIDA_NOVA_ARARAS_LTDA": {
+    "cidade": "Araras",
+    "lat": -22.3572,
+    "lon": -47.3842,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ARARAS_VIDA_NOVA_ARARAS_SA": {
+    "cidade": "Araras",
+    "lat": -22.3572,
+    "lon": -47.3842,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ASSIS_BELA_VISTA_1": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ASSIS_BELA_VISTA_1_CESSAO": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ASSIS_BELA_VISTA_2": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ASSIS_BELA_VISTA_2_CESSAO": {
+    "cidade": "Assis",
+    "lat": -22.66,
+    "lon": -50.4183,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ASSIS_CHATEAUBRIAND_BEM_VIVER_1": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ASSIS_CHATEAUBRIAND_BEM_VIVER_1_CESSAO": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_AURORA_PIQUIRI": {
+    "cidade": "Nova Aurora",
+    "lat": -24.5289,
+    "lon": -53.2575,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BARRETOS_3": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BARRETOS_ANASTACIO_4": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BARRETOS_ANASTACIO_4_CESSAO": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BARRETOS_IV": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BARRETOS_IV_REPARCELAMENTO": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BARRETOS_IV_REPARCELAMENTO_CESSAO": {
+    "cidade": "Barretos",
+    "lat": -20.5531,
+    "lon": -48.5698,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_3": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_3_CESSAO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_3_VIDA_NOVA_BAURU_3_LTDA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_AZEVEDO_FASE_1": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_II": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_II_CESSAO": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_II_VIDA_NOVA_BAURU_II": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_VIDA_NOVA_BAURU_LTDA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BAURU_VIDA_NOVA_BAURU_SA": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BOTUCATU": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BOTUCATU_VERONICA": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_BOTUCATU_VIDA_NOVA_BOTUCATU": {
+    "cidade": "Botucatu",
+    "lat": -22.8837,
+    "lon": -48.4437,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CAFELANDIA_PROGRESSO": {
+    "cidade": "Cafelândia",
+    "lat": -21.8031,
+    "lon": -49.6092,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CAFELANDIA_PROGRESSO_CESSAO": {
+    "cidade": "Cafelândia",
+    "lat": -21.8031,
+    "lon": -49.6092,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CATANDUVA_3_FASE_1": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CATANDUVA_3_FASE_1_CESSAO": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CEDRAL_CALIFORNIA": {
+    "cidade": "Cedral",
+    "lat": -20.9009,
+    "lon": -49.2664,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CEDRAL_CALIFORNIA_CESSAO": {
+    "cidade": "Cedral",
+    "lat": -20.9009,
+    "lon": -49.2664,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CIANORTE_LAGUILO": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CIANORTE_LAGUILO_CESSAO": {
+    "cidade": "Cianorte",
+    "lat": -23.6599,
+    "lon": -52.6054,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CUIABA_COPAGAZ_2": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_CUIABA_COPAGAZ_2_CESSAO": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ITAPETININGA_2": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ITAPETININGA_2_CESSAO": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ITAPETININGA_CRISTOVAO_COLOMBO_F1": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_ITAPETININGA_CRISTOVAO_COLOMBO_F1_CESSAO": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LINS_3": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LINS_3_CESSAO": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LINS_IV": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LINS_SAMUEL_ARZANI": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LINS_SAMUEL_ARZANI_CESSAO": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LONDRINA_CESSAO": {
+    "cidade": "Nova Londrina",
+    "lat": -22.7639,
+    "lon": -52.9868,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_LONDRINA_VIDA_NOVA_LONDRINA": {
+    "cidade": "Nova Londrina",
+    "lat": -22.7639,
+    "lon": -52.9868,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_MARILIA_ALTOS_DO_PALMITAL": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_MARILIA_ALTOS_DO_PALMITAL_CESSAO": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_MARILIA_GIGANTAO": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_MARILIA_GIGANTAO_CESSAO": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_OURINHOS_CONSTANTE_FASE_2": {
+    "cidade": "Ourinhos",
+    "lat": -22.9797,
+    "lon": -49.8697,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_OURINHOS_CONSTANTE_FASE_2_CESSAO": {
+    "cidade": "Ourinhos",
+    "lat": -22.9797,
+    "lon": -49.8697,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_OURINHOS_FASE_1": {
+    "cidade": "Ourinhos",
+    "lat": -22.9797,
+    "lon": -49.8697,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_OURINHOS_FASE_1_CESSAO": {
+    "cidade": "Ourinhos",
+    "lat": -22.9797,
+    "lon": -49.8697,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PINDAMONHANGABA_TERRA_NOVA": {
+    "cidade": "Pindamonhangaba",
+    "lat": -22.9246,
+    "lon": -45.4613,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PINDAMONHANGABA_TERRA_NOVA_CESSAO": {
+    "cidade": "Pindamonhangaba",
+    "lat": -22.9246,
+    "lon": -45.4613,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PONTA_GROSSA_1": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PONTA_GROSSA_1_CESSAO": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PONTA_GROSSA_EMPREENDIMENTO_IMOBILIARIO_LTDA": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PORTO_FELIZ_C5": {
+    "cidade": "Porto Feliz",
+    "lat": -23.2093,
+    "lon": -47.5251,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PRESIDENTE_PRUDENTE_3": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PRESIDENTE_PRUDENTE_3_CESSAO": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PRESIDENTE_PRUDENTE_I": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_PRESIDENTE_PRUDENTE_I_CESSAO": {
+    "cidade": "Presidente Prudente",
+    "lat": -22.1207,
+    "lon": -51.3925,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_CESSAO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_JOSE_BERNARDES_COELHO_F1": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_JOSE_BERNARDES_COELHO_F1_CESSAO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_JOSE_BERNARDES_COELHO_F2_CESSAO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_PAPA": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_PAPA_CESSAO": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_RIO_PRETO_ZACARIN": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_SALTO_DE_PIRAPORA_FASE_1": {
+    "cidade": "Salto de Pirapora",
+    "lat": -23.6474,
+    "lon": -47.5743,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_SALTO_DE_PIRAPORA_FASE_1_CESSAO": {
+    "cidade": "Salto de Pirapora",
+    "lat": -23.6474,
+    "lon": -47.5743,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_SALTO_DE_PIRAPORA_PACAEMBU_FASE_2": {
+    "cidade": "Salto de Pirapora",
+    "lat": -23.6474,
+    "lon": -47.5743,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_SALTO_DE_PIRAPORA_PACAEMBU_FASE_2_CESSAO": {
+    "cidade": "Salto de Pirapora",
+    "lat": -23.6474,
+    "lon": -47.5743,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_SAO_CARLOS": {
+    "cidade": "São Carlos",
+    "lat": -22.0174,
+    "lon": -47.886,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_SAO_CARLOS_EP_CEMEI": {
+    "cidade": "São Carlos",
+    "lat": -22.0174,
+    "lon": -47.886,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TATUI_3": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TATUI_3_CESSAO": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TATUI_3_VIDA_NOVA_TATUI_3": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TATUI_CAGUASSU": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TATUI_CAGUASSU_CESSAO": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TATUI_NOSSA_SENHORA_APARECIDA": {
+    "cidade": "Tatuí",
+    "lat": -23.3487,
+    "lon": -47.8461,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TAUBATE_PORTO_FELIZ_C3": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TAUBATE_PORTO_FELIZ_C3_CESSAO": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_TRINDADE": {
+    "cidade": "Trindade",
+    "lat": -16.6517,
+    "lon": -49.4927,
+    "uf": "GO",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_VOTUPORANGA_CELIO": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOC_VIDA_NOVA_VOTUPORANGA_CELIO_CESSAO": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_ARACATUBA_VILA_AERONAUTICA_48380": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_ASSIS_CHATEAUBRIAND_JARDIM_CANADA_F2_48552": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_ASSIS_CHATEAUBRIAND_UNIFICACAO_2_48358": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_ITAPETININGA_CRISTOVAO_COLOMBO_48334": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_ITUIUTABA_JARDIM_SUL_48442": {
+    "cidade": "Ituiutaba",
+    "lat": -18.9772,
+    "lon": -49.4639,
+    "uf": "MG",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_ITUIUTABA_JARDIM_SUL_FASE_2_48442": {
+    "cidade": "Ituiutaba",
+    "lat": -18.9772,
+    "lon": -49.4639,
+    "uf": "MG",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_LINS_LINS_3_48191": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_MARILIA_FAZENDA_ARARAQUARA_ F1_ 48222": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_RIO_PRETO_JOSE_BERNARDES_COELHO_48336": {
+    "cidade": "São José do Rio Preto",
+    "lat": -20.8113,
+    "lon": -49.3758,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "LOJA_VOTUPORANGA_CELIO_48336": {
+    "cidade": "Votuporanga",
+    "lat": -20.4237,
+    "lon": -49.9781,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_ ASSIS_CHATEAUBRIAND_BEM_VIVER_MONTREAL_2_52552": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_ PIRATININGA_VERISSIMO_F1_52464": {
+    "cidade": "Piratininga",
+    "lat": -22.4142,
+    "lon": -49.1339,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_ SINOP_RHOVID_ F1_52423": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_ARACATUBA_VILA_AERONAUTICA_52380": {
+    "cidade": "Araçatuba",
+    "lat": -21.2076,
+    "lon": -50.4401,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_BALSAMO_RESIDENCIAL_JOSE_STUCKI_52469": {
+    "cidade": "Bálsamo",
+    "lat": -20.7348,
+    "lon": -49.5865,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_BAURU_AZEVEDO_F2_52331": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_CUIABA_LATORRACA_1_52361": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_CUIABA_LATORRACA_2_52362": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_ITAPETININGA_COPACABANA_52443": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_ITUIUTABA_JARDIM_SUL_F1_&_F2_52422": {
+    "cidade": "Ituiutaba",
+    "lat": -18.9772,
+    "lon": -49.4639,
+    "uf": "MG",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_LINS_IV_52270": {
+    "cidade": "Lins",
+    "lat": -21.6718,
+    "lon": -49.7526,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_PALOTINA_SAIDA_FA_52384": {
+    "cidade": "Palotina",
+    "lat": -24.2868,
+    "lon": -53.8404,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_PONTA_GROSSA_3_JARDIM_ROYAL_F3_52468": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_PRIMAVERA_DO_LESTE_AV_EDUARDO_ZALESKI": {
+    "cidade": "Primavera do Leste",
+    "lat": -15.544,
+    "lon": -54.2811,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_LTDA_TAUBATE_PORTO_FELIZ_C5_52355": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_ ASSIS_CHATEAUBRIAND_BEM_VIVER_MONTREAL_2_49552": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_ SINOP_RHOVID_ F1_49423": {
+    "cidade": "Sinop",
+    "lat": -11.8604,
+    "lon": -55.5091,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_ARARAQUARA_MONTORO _I_49271": {
+    "cidade": "Araraquara",
+    "lat": -21.7845,
+    "lon": -48.178,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_ASSIS_CHATEAUBRIAND_VIZINHO_COMVIVA _49447": {
+    "cidade": "Assis Chateaubriand",
+    "lat": -24.4168,
+    "lon": -53.5213,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_BAURU_AZEVEDO_F2_49331": {
+    "cidade": "Bauru",
+    "lat": -22.3246,
+    "lon": -49.0871,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_CATANDUVA_NOVA_CATANDUVA_III_F3_52416": {
+    "cidade": "Catanduva",
+    "lat": -21.1314,
+    "lon": -48.977,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_CUIABA_COPAGAZ_1_49341": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_CUIABA_LATORRACA_1_49361": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_CUIABA_LATORRACA_2_49362": {
+    "cidade": "Cuiabá",
+    "lat": -15.601,
+    "lon": -56.0974,
+    "uf": "MT",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_ITAPETININGA_COPACABANA_49443": {
+    "cidade": "Itapetininga",
+    "lat": -23.5886,
+    "lon": -48.0483,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_ITUIUTABA_JARDIM_SUL_49422": {
+    "cidade": "Ituiutaba",
+    "lat": -18.9772,
+    "lon": -49.4639,
+    "uf": "MG",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_MARILIA_FAZENDA_ARARAQUARA _F1_49222": {
+    "cidade": "Marília",
+    "lat": -22.2171,
+    "lon": -49.9501,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_PALOTINA_SAIDAFA_49384": {
+    "cidade": "Palotina",
+    "lat": -24.2868,
+    "lon": -53.8404,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_PONTA_GROSSA_3_JARDIM_ROYAL_F3_49468": {
+    "cidade": "Ponta Grossa",
+    "lat": -25.0916,
+    "lon": -50.1668,
+    "uf": "PR",
+    "origem": "completar_locais.py (nome do local x IBGE)"
+  },
+  "OBRA_SA_TAUBATE_PORTO_FELIZ_C2_49352": {
+    "cidade": "Taubaté",
+    "lat": -23.0104,
+    "lon": -45.5593,
+    "uf": "SP",
+    "origem": "completar_locais.py (nome do local x IBGE)"
   }
 }
