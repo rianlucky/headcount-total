@@ -38,6 +38,10 @@ UF_ESTADO = {"AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "AM": "Amazonas", "B
              "SE": "Sergipe", "TO": "Tocantins"}
 
 
+# CCs que entram na curva de mobilização como se fossem uma obra (equipe que roda entre obras)
+STAFF_ROTATIVO = {"47501", "47502"}
+
+
 def _cc_texto(cc, nome) -> str:
     cc = "" if cc is None or pd.isna(cc) else str(cc)
     nome = "" if nome is None or pd.isna(nome) else str(nome).strip()
@@ -72,6 +76,11 @@ def preparar(base: pd.DataFrame) -> pd.DataFrame:
              .drop_duplicates("obra")[["obra", "nome_centro_custo"]].set_index("obra")["nome_centro_custo"])
     nomes = nomes.str.replace(r"\s*[-–]\s*Custos\s+(S\.?A\.?|LTDA\.?)\s*$", "", regex=True, case=False).str.strip()
     df["obra_nome"] = df["obra"].map(nomes).fillna(NAO_INFORMADO)
+    # curva de mobilização: as obras + os CCs de staff rotativo, cada um como um item
+    staff = df["centro_de_custo"].astype(str).isin(STAFF_ROTATIVO)
+    df["curva_chave"] = df["obra"].where(~staff, "staff-" + df["centro_de_custo"].astype(str))
+    df["curva_nome"] = df["obra_nome"].where(~staff, df["nome_centro_custo"])
+    df["curva_emp"] = df["empregador"].where(~staff, "Staff rotativo")
     return df
 
 
@@ -201,25 +210,26 @@ def crescimento_anos(df: pd.DataFrame, ref: date, anos: int = 3) -> pd.DataFrame
 
 
 def obras_lista(df: pd.DataFrame, desde: date) -> pd.DataFrame:
-    """Obras com alguém ativo desde `desde`, da maior para a menor (pelo pico)."""
-    o = df[df["obra"].notna() & (df["data_desligamento"].isna() | (df["data_desligamento"] >= desde))]
+    """Obras (e os CCs de staff rotativo) com alguém ativo desde `desde`, da maior para a menor."""
+    o = df[df["curva_chave"].notna() & (df["data_desligamento"].isna() | (df["data_desligamento"] >= desde))]
+    o = o.rename(columns={"obra": "_obra", "obra_nome": "_obra_nome"}).rename(columns={"curva_chave": "obra", "curva_nome": "obra_nome"})
     t = o.groupby(["obra", "obra_nome"]).agg(ccs=("centro_de_custo", lambda s: " + ".join(sorted(set(map(str, s))))),
                                               pessoas=("id_funcionario", "nunique")).reset_index()
     return t.sort_values("pessoas", ascending=False)
 
 
 def mobilizacao(df: pd.DataFrame, obra: str, fim: date) -> pd.DataFrame:
-    """Curva de mobilização de uma obra: headcount no fim de cada mês, por empregador (SA / LTDA),
-    da primeira admissão até `fim`."""
-    o = df[df["obra"] == obra]
+    """Curva de mobilização de uma obra (ou CC de staff rotativo): headcount no fim de cada mês, por
+    empregador (SA / LTDA / Staff rotativo), da primeira admissão até `fim`."""
+    o = df[df["curva_chave"] == obra]
     if o.empty:
         return pd.DataFrame(columns=["mes", "empregador", "headcount"])
     linhas, d = [], min(o["data_admissao"]).replace(day=1)
     while d <= fim:
         corte = min(_fim_mes(d), fim)
         a = ativos_em(o, corte)
-        for emp in ("SA", "LTDA"):
-            linhas.append({"mes": d, "empregador": emp, "headcount": int((a["empregador"] == emp).sum())})
+        for emp in sorted(o["curva_emp"].dropna().unique()):
+            linhas.append({"mes": d, "empregador": emp, "headcount": int((a["curva_emp"] == emp).sum())})
         d = (d + timedelta(days=32)).replace(day=1)
     return pd.DataFrame(linhas)
 

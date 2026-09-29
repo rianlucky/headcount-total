@@ -121,14 +121,16 @@ def crescimento(t: pd.DataFrame) -> dict:
 def curva_mobilizacao(t: pd.DataFrame) -> dict:
     """Headcount da obra no fim de cada mês, empilhado por empregador (SA / LTDA)."""
     d = t.assign(mes_txt=[_mes_txt(x) for x in t["mes"]])
-    tot = d.groupby("mes_txt", sort=False)["headcount"].sum().reset_index().assign(txt=lambda x: [_int(v) if v else "" for v in x["headcount"]])
+    tot = d.groupby("mes_txt", sort=False)["headcount"].sum().reset_index()
+    # com muitos meses (staff rotativo tem desde 2012) os números em cima das barras embolam
+    tot = tot.assign(txt=[_int(v) if v and len(tot) <= 40 else "" for v in tot["headcount"]])
     x = {"field": "mes_txt", "type": "ordinal", "sort": list(dict.fromkeys(d["mes_txt"])),
          "axis": {"labelAngle": 0, "title": None, "labelOverlap": "greedy"}}
     return {"layer": [
         {"data": {"values": d.to_dict("records")}, "mark": {"type": "bar", "cornerRadiusTopLeft": 2, "cornerRadiusTopRight": 2},
          "encoding": {"x": x, "y": {"field": "headcount", "type": "quantitative", "stack": True, "axis": {"grid": True, "title": None}},
-                      "color": {"field": "empregador", "scale": {"domain": ["SA", "LTDA"], "range": [AZUL, AMARELO]},
-                                "legend": {"orient": "top", "labelExpr": "datum.label == 'SA' ? 'SA (CC 49…)' : 'LTDA (CC 52…)'"}},
+                      "color": {"field": "empregador", "scale": {"domain": ["SA", "LTDA", "Staff rotativo"], "range": [AZUL, AMARELO, AZUL_MEDIO]},
+                                "legend": {"orient": "top", "labelExpr": "datum.label == 'SA' ? 'SA (CC 49…)' : datum.label == 'LTDA' ? 'LTDA (CC 52…)' : datum.label"}},
                       "tooltip": [{"field": "mes_txt", "title": "Mês"}, {"field": "empregador", "title": "Empregador"},
                                   {"field": "headcount", "title": "Pessoas"}]}},
         {"data": {"values": tot.to_dict("records")}, "mark": {"type": "text", "dy": -7, "fontSize": 10, "fontWeight": 700, "color": CINZA_ESCURO},
@@ -427,10 +429,11 @@ else:
             pp.kpi("Hoje", _int(tot_mes.iloc[-1]) if len(tot_mes) else "—",
                    f"{_pct(tot_mes.iloc[-1] / tot_mes.max())} do pico" if len(tot_mes) and tot_mes.max() else "")
         with k4:
-            pp.kpi("Passaram pela obra", _int(base.loc[base["obra"] == obra_sel, "id_funcionario"].nunique()), "pessoas diferentes")
+            pp.kpi("Passaram pela obra", _int(base.loc[base["curva_chave"] == obra_sel, "id_funcionario"].nunique()), "pessoas diferentes")
         pp.grafico("", curva_mobilizacao(mob), 300, SEM_DADOS)
         st.html('<div class="nota">Pessoas ativas no fim de cada mês, da primeira admissão até a data final, separadas por '
-                'empregador. Mostra quando a obra mobilizou, o pico e a desmobilização. Escolha mais obras para comparar.</div>')
+                'empregador. Mostra quando a obra mobilizou, o pico e a desmobilização. Escolha mais obras para comparar '
+                '(os CCs de staff rotativo 47501 e 47502 também estão na lista).</div>')
     else:
         eixo = st.segmented_control("Eixo", ["Pela mobilização de cada obra", "Pelo calendário"], default="Pela mobilização de cada obra",
                                     label_visibility="collapsed", key="eixo_mobilizacao") or "Pela mobilização de cada obra"
@@ -448,7 +451,7 @@ else:
                                  "Mês do pico": _mes_txt(mob.loc[mob["headcount"].idxmax(), "mes"]),
                                  "Meses até o pico": int(mob.loc[mob["headcount"].idxmax(), "mes_obra"]) - 1,
                                  "Hoje": int(mob["headcount"].iloc[-1]),
-                                 "Passaram pela obra": int(base.loc[base["obra"] == o, "id_funcionario"].nunique())})
+                                 "Passaram pela obra": int(base.loc[base["curva_chave"] == o, "id_funcionario"].nunique())})
         curvas = pd.concat(curvas, ignore_index=True)
         curvas["mes"] = pd.to_datetime(curvas["mes"])
         pp.grafico("", comparar_obras(curvas, eixo == "Pela mobilização de cada obra"), 340, SEM_DADOS)
