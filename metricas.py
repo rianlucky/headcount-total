@@ -71,6 +71,9 @@ def preparar(base: pd.DataFrame) -> pd.DataFrame:
     df["loja"] = df["centro_de_custo"].astype(str).str.startswith("48")
     df["desligamento_incorreto"] = df["desligamento_incorreto"].fillna(False).astype(bool)
     df["admissao_real"] = df["admissao_real"].fillna(True).astype(bool)
+    # recontratação em até 10 dias não é desligamento (regra de negócio de 30/09/2026, migração 021)
+    df["desligamento_readmitido"] = (df["desligamento_readmitido"].fillna(False).astype(bool)
+                                     if "desligamento_readmitido" in df else False)
     # nome da obra: o do CC da SA (49), senão o da LTDA (52)
     nomes = (df[df["obra"].notna()].sort_values("centro_de_custo")
              .drop_duplicates("obra")[["obra", "nome_centro_custo"]].set_index("obra")["nome_centro_custo"])
@@ -117,7 +120,8 @@ def evolucao(df: pd.DataFrame, ini: date, fim: date) -> pd.DataFrame:
 def eventos(df: pd.DataFrame, ini: date, fim: date) -> tuple[int, int]:
     """Admissões e desligamentos no período (regras do painel Turnover)."""
     adm = int((df["data_admissao"].between(ini, fim) & df["admissao_real"]).sum())
-    desl = int((df["data_desligamento"].notna() & df["data_desligamento"].between(ini, fim) & ~df["desligamento_incorreto"]).sum())
+    desl = int((df["data_desligamento"].notna() & df["data_desligamento"].between(ini, fim) & ~df["desligamento_incorreto"]
+                & ~df["desligamento_readmitido"]).sum())
     return adm, desl
 
 

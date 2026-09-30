@@ -97,6 +97,11 @@ h1 {{ font-weight: 800 !important; color: {AZUL_ESCURO} !important; letter-spaci
     display:inline-block; padding-bottom:.15rem; margin:.7rem 0 .2rem; }}
 .titulo-graf {{ color:{CINZA_ESC_TXT}; font-weight:700; font-size:.95rem; margin-bottom:-.4rem; }}
 .nota {{ color:{CINZA_TXT}; font-size:.8rem; line-height:1.4; }}
+/* cards da mesma fileira sempre com a mesma altura (a do mais alto), em qualquer largura de tela */
+[data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:has(> [data-testid="stHtml"] > .pp-kpi) {{
+    flex:1 1 auto; display:flex; flex-direction:column; }}
+[data-testid="stHtml"]:has(> .pp-kpi) {{ flex:1 1 auto; display:flex; flex-direction:column; }}
+[data-testid="stHtml"] > .pp-kpi {{ flex:1 1 auto; }}
 @media (max-width: 640px) {{ .pp-kpi-valor {{ font-size:1.55rem; }} }}
 /* Impressão (Ctrl+P / PDF): A4 deitada, só o conteúdo — os filtros já estão nos selos do topo */
 @media print {{
